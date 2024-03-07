@@ -34,18 +34,10 @@ const OurSolution = () => {
       >
         <div className="flex flex-col gap-10 md:gap-5 lg:gap-10 text-base xl:text-3xl font-thin">
           <p>
-            We offer a comprehensive range of services to meet all your needs.
-            From renovations and refurbishments to new constructions, we've got
-            you covered. Our team of skilled professionals is dedicated to
-            delivering high-quality workmanship and exceptional results.
+          Our journey is more than a narrative; it's a testament to our passion for transforming spaces into timeless havens of luxury. At the heart of our mission is a commitment to excellence that has evolved with us from our humble beginnings. As we continue to redefine luxury renovation, our commitment to delivering unmatched solutions has become the cornerstone of our success. Every project is an opportunity for us to showcase our dedication to innovation, collaboration, and attention to detail, creating spaces that transcend the ordinary.
           </p>
           <p>
-            With attention to detail and a commitment to excellence, we ensure
-            that every project is completed to the highest standards. Whether
-            you're looking to update your home or embark on a new construction
-            project, we're here to help. Contact us today to learn more about
-            our services and how we can assist you in bringing your vision to
-            life.
+          In our pursuit of excellence, we've developed solutions that not only meet but exceed the expectations of our clients. Through a fusion of cutting-edge technology, sustainable practices, and a deep understanding of design aesthetics, we've crafted solutions that stand as a testament to our unwavering commitment to quality.
           </p>
         </div>
       </div>

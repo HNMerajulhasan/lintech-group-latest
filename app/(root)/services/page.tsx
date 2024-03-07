@@ -4,10 +4,13 @@ import ReviwsSlide from "@/components/customersReview/ReviewsSlide";
 import ExquisiteElegance from "@/components/exquisiteElegnace/ExquisiteElegance";
 import Footer from "@/components/footer/Footer";
 import OurAdvantages from "@/components/servicePage/advantages/OurAdvantages";
+import CaseStudies from "@/components/servicePage/caseStudies/caseStudies";
 import ServiceHero from "@/components/servicePage/Hero/ServiceHero";
 import OurProcess from "@/components/servicePage/ourProcess/OurProcess";
 import OurSolution from "@/components/servicePage/ourSolution/OurSolution";
 import Recentwork from "@/components/servicePage/Recentwork/Recentwork";
+import Testimonial from "@/components/servicePage/testimonial/testimonial";
+import WorkingBenefits from "@/components/servicePage/working Benefits/workingBenefits";
 import React from "react";
 
 const page = () => {
@@ -36,15 +39,25 @@ const page = () => {
         <Recentwork />
       </section>
 
-      <section className="w-full px-5 md:px-10 text-black  bg-white">
+      <section className="w-full text-black  bg-white">
+        {/* <OurProcess /> */}
+        <CaseStudies/>
+      </section>
+
+      <section className="w-full  text-black  bg-white">
+        {/* <OurAdvantages /> */}
+        <Testimonial />
+      </section>
+      <section className="w-full  text-black  bg-white">
+   
+        <WorkingBenefits />
+      </section>
+      <section className="w-full  text-white  bg-[#0F0F0F]">
+   
         <OurProcess />
       </section>
 
-      <section className="w-full px-5 md:px-10 text-black  bg-white">
-        <OurAdvantages />
-      </section>
-
-      <section className="floral-reg w-full px-5 md:px-10 text-black  bg-white">
+      {/* <section className="floral-reg w-full px-5 md:px-10 text-black  bg-white">
         <section className="w-full flex flex-col gap-10 mb-10 md:pb-28 xl:px-16">
           <div className="w-full flex flex-col gap-10">
             <div>
@@ -55,16 +68,16 @@ const page = () => {
             <ReviwsSlide />
           </div>
         </section>
-      </section>
+      </section> */}
 
 
-      <section className="contact-bg w-full">
+      <section className="bg-black p-16 text-white w-full">
         <ContactUs />
       </section>
 
-      <section className="text-black w-full px-5 md:px-10 xl:px-16">
+      {/* <section className="text-black w-full px-5 md:px-10 xl:px-16">
         <ExquisiteElegance />
-      </section>
+      </section> */}
 
       <footer className="w-full px-5 pt-20 md:px-10 bg-black">
         <Footer />
