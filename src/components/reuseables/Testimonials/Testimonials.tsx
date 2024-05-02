@@ -41,11 +41,11 @@ const Testimonials = ({
 }) => {
 
 
+ 
   // const handlePlayVideo = (videoSrc: string, index: number) => {
   //   const videoElement = document.getElementById(`testimonialVideo${index}`) as HTMLVideoElement;
   //   if (videoElement) {
   //     if (videoElement.paused) {
-  //       videoElement.src = videoSrc;
   //       videoElement.play();
   //     } else {
   //       videoElement.pause();
@@ -53,26 +53,36 @@ const Testimonials = ({
   //   }
   // };
 
+
+
+  const [currentVideoIndex, setCurrentVideoIndex] = useState<number | null>(null);
+
   const handlePlayVideo = (videoSrc: string, index: number) => {
     const videoElement = document.getElementById(`testimonialVideo${index}`) as HTMLVideoElement;
     if (videoElement) {
-      if (videoElement.paused) {
-        videoElement.play();
+      if (index === currentVideoIndex) {
+        if (videoElement.paused) {
+          videoElement.play();
+        } else {
+          videoElement.pause();
+        }
       } else {
-        videoElement.pause();
+        pauseCurrentVideo();
+        setCurrentVideoIndex(index);
+        videoElement.play();
       }
     }
   };
 
-
-
-  // const handlePlayVideo = (videoSrc: string, index: number) => {
-  //   const videoElement = document.getElementById(`testimonialVideo${index}`) as HTMLVideoElement;
-  //   if (videoElement) {
-  //     videoElement.src = videoSrc;
-  //   }
-  // };
-  
+  const pauseCurrentVideo = () => {
+    if (currentVideoIndex !== null) {
+      const currentVideo = document.getElementById(`testimonialVideo${currentVideoIndex}`) as HTMLVideoElement;
+      if (currentVideo) {
+        currentVideo.pause();
+      }
+      setCurrentVideoIndex(null);
+    }
+  };
 
  
 
