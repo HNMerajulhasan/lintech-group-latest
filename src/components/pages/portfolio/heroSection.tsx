@@ -104,7 +104,7 @@ function HeroSection() {
   return (
     <motion.div
       ref={scope}
-      className="w-full mt-[60px] flex-col md:flex-row flex gap-[32px] justify-between">
+      className="w-full mt-[60px] pt-20 md:pt-40 flex-col md:flex-row flex gap-[32px] justify-between">
       <div className="flex flex-col w-fit md:w-[auto]">
         <motion.h1
           initial={{ y: 150, opacity: 0 }}

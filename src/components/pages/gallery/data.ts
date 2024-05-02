@@ -28,7 +28,7 @@ export const galleyData = {
       image: "/images/Gallery_Images/residential/9.webp",
     },
     {
-      image: "/images/Gallery_Images/residential/10.webp",
+      image: "/images/Gallery_Images/residential/10.jpeg",
     },
     {
       image: "/images/Gallery_Images/residential/11.webp",

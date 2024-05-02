@@ -9,6 +9,7 @@ import arrorw_top_right_white from "@/assets/icons/arrorw_top_right_white.svg";
 import { projects } from "./data";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const HomepagePastProjects = () => {
   return (
@@ -90,17 +91,27 @@ const HomepagePastProjects = () => {
                             y: "10px",
                           },
                         }}>
+                        <Link href={"/contact"} >
                         <Image
                           src={arrorw_top_right_white}
                           alt="arrorw_top_right_white"
                           className={styles.project_left_title_icon}
                         />
+                          </Link>
                       </motion.div>
+
+
+
+
                     </div>
                     <p>{item?.description}</p>
                     <small>{item?.category}</small>
                   </motion.div>
                   <div className={styles.project_divider}></div>
+
+
+
+
 
                   <motion.div
                     viewport={{ once: true }}
@@ -119,7 +130,7 @@ const HomepagePastProjects = () => {
                     <img
                       src={item?.image}
                       alt="image_right"
-                      className={styles.project_right_image}
+                      className={`${styles.project_right_image} `}
                     />
                   </motion.div>
                 </motion.div>

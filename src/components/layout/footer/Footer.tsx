@@ -39,15 +39,15 @@ function Footer() {
             <div>
               <Image src={call_white} alt={call_white} />
               <span>
-                0121 272 9229 
+                <a href="tel:02038369086">020 3836 9086</a>
                 <br />
                 (Fri-Sat)
               </span>
             </div>
-            <div>
+            {/* <div>
               <Image src={whatsapp_white} alt={whatsapp_white} />
               <span>+447301253447</span>
-            </div>
+            </div> */}
           </div>
         </div>
 
@@ -56,7 +56,10 @@ function Footer() {
             if (windowWidth < 720 && item?.hideInSmallScreen) return null;
             return (
               <div className={styles.linkColumn} key={`${i}`}>
-                <h4 className={styles.title_2}>{item.title}</h4>
+                {/* <h4 className={styles.title_2}> {item.title} </h4> */}
+                <h4 className={i === 0 ? styles.title_2_first : styles.title_2}>
+                  {item.title}
+                </h4>
                 {item?.children?.length
                   ? item.children.map((child, indx) => (
                       <Link href={child.link} key={`${indx}`}>
@@ -74,8 +77,8 @@ function Footer() {
         <div className="w-full">
           <div className={styles.divider} />
           <p className={styles.title_3}>
-            Copyright © 2024 John Clive Industries Ltd. Registered in England
-            and Wales, UK.
+            Copyright © 2024 Luxe Transformations Ltd. Registered in England and
+            Wales, UK
           </p>
           <p className={styles.title_3}>
             All rights reserved Website Developed by Lintech Group

@@ -17,13 +17,27 @@ const Homepage = () => {
   return (
     <>
       <BorderedPageWrapper>
-        <div className="px-padding-vertical-screen bg-[#0e0e0e]">
-          <NavBar />
+
+      <div className="w-full px-padding-vertical-screen left-0 mx-auto top-0 fixed z-50  bg-[#0e0e0e] sm:border-r-[5px] sm:border-t-[5px]    sm:border-l-[5px]  border-white  pb-5">
+            <NavBar />
+          </div>
+
+
+
+        <div className="px-padding-vertical-screen bg-[#0e0e0e] pt-20">
+          {/* <NavBar /> */}
+       
+
+
+
+
           {/* PLEASE WORK HERE AboutUs Hero section*/}
           <TopBannerSection />
         </div>
         <div className="px-padding-vertical-screen bg-[#ffffff]">
           <Together />
+
+          
           <Testimonials
             title_top="OUR VALUES"
             title_color="#100E10"
@@ -35,6 +49,9 @@ const Homepage = () => {
               { id: 3, image: "/images/about/our_values_man_2.png" },
             ]}
           />
+
+
+          
 
           {/* <MeetTheTeam /> */}
           <Testimonials title_color="#100E10" description_color="#4E4E4E" />

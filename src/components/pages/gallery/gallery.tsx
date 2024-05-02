@@ -20,11 +20,21 @@ const GalleryPage = () => {
     <>
       <BorderedPageWrapper>
         <div className="bg-[#0F0F0F]">
-          <div className="bg-[#0F0F0F] lg:rounded-t-2xl px-padding-vertical-screen">
+
+
+          {/* <div className="bg-[#0F0F0F] lg:rounded-t-2xl px-padding-vertical-screen">
             <NavBar dark={true} />
+          </div> */}
+
+          
+          <div className="w-full px-padding-vertical-screen left-0 mx-auto top-0 fixed z-50  bg-[#0e0e0e] sm:border-r-[5px] sm:border-l-[5px]  border-white  pb-5">
+            <NavBar dark={true}  />
           </div>
 
-          <div className="text-center mt-10 ">
+
+
+
+          <div className="text-center pt-40 ">
             <motion.h1
               whileInView="visible"
               initial="hidden"

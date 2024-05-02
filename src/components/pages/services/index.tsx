@@ -28,11 +28,18 @@ function ServicePage({ page_id }: { page_id?: string }) {
   return (
     <BorderedPageWrapper light_bg>
       <div className="px-padding-vertical-screen overflow-x-hidden relative">
-        <Navbar dark={false} />
+        {/* <Navbar dark={false} /> */}
+        <div className="w-full px-padding-vertical-screen left-0 mx-auto top-0 fixed z-50 bg-white sm:border-r-[5px] sm:border-l-[5px]  border-white  pb-5">
+            <Navbar dark={false}  />
+          </div>
+
+
+
         <div
-          className="py-[60px] pt-[50px]
+          // className="py-[60px] pt-[50px]
+          className="py-[60px] pt-[50]
           sm:pt-[80px] 
-          3xl:pt-[100px] ">
+          3xl:pt-[100px] mt-20 md:mt-40 ">
           <HeaderTitle
             title_color="#100E10"
             title_top={`${found_page?.content?.header_title_1}`.toUpperCase()}
@@ -62,7 +69,7 @@ function ServicePage({ page_id }: { page_id?: string }) {
         }
       />
 
-      <section className="w-full text-black  bg-white">
+      <section className="w-full text-black  bg-white overflow-x-hidden">
         <CaseStudies
           caption_text={found_page?.content?.caseStudy?.caption_text}
           title_top={found_page?.content?.caseStudy?.title_top}
@@ -70,6 +77,8 @@ function ServicePage({ page_id }: { page_id?: string }) {
           data={found_page?.content?.caseStudy?.data}
         />
       </section>
+
+
 
       <div className="px-padding-vertical-screen">
         <Testimonials

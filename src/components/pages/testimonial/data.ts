@@ -1,9 +1,14 @@
 import testimonialImage1 from "../../../../public/images/testimonialImages/testimonialImage1.jpeg";
+// import video1 from "../../../../public/vid1.mp4";
+// import video2 from "../../../../public/vid2.mp4";
+// import video3 from "../../../../public/vid3.mp4";
+
 
 export const testimonialData = [
   {
     id: "1",
     image: testimonialImage1,
+    video: "/vid1.mp4",
     name:'John Anderson',
     company_name:'Anderson Holdings Inc.',
     rating: 5
@@ -11,6 +16,7 @@ export const testimonialData = [
   {
     id: "2",
     image: testimonialImage1,
+    video: "/vid2.mp4",
     name:'Jacob Davis',
     company_name:'Davis Innovations Ltd.',
     rating: 5
@@ -18,6 +24,7 @@ export const testimonialData = [
   {
     id: "3",
     image: testimonialImage1,
+    video: "/vid3.mp4",
     name:'Michael Turner',
     company_name:'Turner Investments',
     rating: 5

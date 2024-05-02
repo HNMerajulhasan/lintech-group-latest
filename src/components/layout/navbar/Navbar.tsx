@@ -67,12 +67,13 @@ function NavBar({ dark = true }: { dark?: boolean }) {
   const [scope, animate] = useAnimate();
 
   return (
-    <>
+    <div className="">
+
       <motion.div
         initial="offscreen"
         whileInView="onscreen"
         viewport={{ once: true, amount: 0.8 }}
-        className="w-full flex items-center justify-between pt-[15px] sm:pt-[30px]">
+        className="w-full flex items-center justify-between pt-[15px] sm:pt-[30px] ">
         <motion.div variants={getCardVariants(0)}>
           <Link href="/">
             <Image
@@ -134,7 +135,7 @@ function NavBar({ dark = true }: { dark?: boolean }) {
           }
         />
       </motion.div>
-    </>
+    </div>
   );
 }
 

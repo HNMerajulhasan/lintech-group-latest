@@ -97,10 +97,10 @@ const ListItems = ({
                     className={styles.sub_service}>
                     <small>{item.id}</small>
                     <span>{item.label}</span>
-                    <Image
+                    {/* <Image
                       src={arrorw_top_right_white}
                       alt="arrorw_top_right_white"
-                    />
+                    /> */}
                   </motion.button>
                 </Link>
               );

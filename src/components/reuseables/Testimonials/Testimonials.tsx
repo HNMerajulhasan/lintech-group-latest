@@ -19,6 +19,7 @@ const parentVariants = {
 interface IImage {
   id?: any;
   image?: any;
+  video?: any;
 }
 
 const Testimonials = ({
@@ -28,12 +29,14 @@ const Testimonials = ({
   title_color = "#ffffff",
   description_color = "#ffffff",
   images = testimonials,
-}: {
+}: // video = testimonials,
+{
   title_top?: string;
   description?: string;
   title_color?: string;
   description_color?: string;
   images?: IImage[];
+  // video?: IImage[];
 }) => {
   return (
     <>
@@ -51,7 +54,8 @@ const Testimonials = ({
           className={styles.testimonials}
           initial="hidden"
           whileInView="visible"
-          variants={parentVariants}>
+          variants={parentVariants}
+        >
           {images.map((item, index) => {
             return (
               <motion.div
@@ -68,7 +72,8 @@ const Testimonials = ({
                 }}
                 viewport={{ once: true }}
                 key={item?.id || `${index}`}
-                className={styles.testimonial}>
+                className={styles.testimonial}
+              >
                 <div className={styles.testimonial_play_overflow}>
                   <button key={item?.id} className={styles.testimonial_play}>
                     <Image
@@ -78,14 +83,26 @@ const Testimonials = ({
                     />
                   </button>
                 </div>
-
-                <motion.img
-                  width={415}
-                  height={593}
-                  src={item?.image}
-                  alt="image_testimonial"
-                  className={styles.testimonial_img}
-                />
+                {item.video ? (
+                  <motion.video
+                    key={item.id}
+                    width={500}
+                    height={593}
+                    src={item?.video}
+                    autoPlay
+                    loop
+                    muted
+                    className={styles.testimonial_video}
+                  />
+                ) : (
+                  <motion.img
+                    width={415}
+                    height={593}
+                    src={item?.image}
+                    alt="image_testimonial"
+                    className={styles.testimonial_img}
+                  />
+                )}
               </motion.div>
             );
           })}
@@ -96,3 +113,7 @@ const Testimonials = ({
 };
 
 export default Testimonials;
+
+{
+  /* 2*/
+}

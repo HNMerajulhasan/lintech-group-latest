@@ -21,16 +21,23 @@ const Homepage = () => {
     <>
       <BorderedPageWrapper>
         <div className={styles.home_container}>
-          <NavBar />
+          <div className="w-full px-padding-vertical-screen left-0 mx-auto top-0 fixed z-50  bg-[#0e0e0e] sm:border-t-[5px]   sm:border-r-[5px] sm:border-l-[5px]  border-white  pb-5">
+            <NavBar />
+          </div>
+
+
+
           <div
             className="py-py-[60px] pt-[50px]
+            mt-20
             sm:pt-[80px] 
-            3xl:pt-[100px]">
+            3xl:pt-[100px]"
+          >
             <HeaderTitle
               title_color="#fff"
               title_top="CRAFTING"
               title_bottom="LUXURY SPACE"
-              description="Elevate Your Environment with Luxe Transformation: Experience Impeccable Craftsmanship, Timeless Elegance, and Sustainable Solutions in Every Renovation Project."
+              description="Welcome to Luxe Transformations - Where Comfort Meets Creativity. Discover a world of unparalleled elegance crafted by our internal designers. Step into luxurious spaces where every detail reflects our dedication to exceptional craftsmanship and timeless sophistication. "
               description_color="#a9a9a9"
             />
             <HeaderThreeImages

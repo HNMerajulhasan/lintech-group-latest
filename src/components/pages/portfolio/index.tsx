@@ -17,7 +17,12 @@ const Homepage = () => {
     <>
       <BorderedPageWrapper>
         <div className={styles.home_container}>
-          <NavBar dark={true} />
+          {/* <NavBar dark={true} /> */}
+          <div className="w-full px-padding-vertical-screen left-0 mx-auto top-0 fixed z-50  bg-[#0e0e0e] sm:border-r-[5px] sm:border-l-[5px]  border-white  pb-5">
+            <NavBar dark={true}  />
+          </div>
+
+
           <HeroSection />
           <MainSection />
           <MakeInquiry />

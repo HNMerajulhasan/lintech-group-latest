@@ -17,7 +17,11 @@
 }
 
 .title_2 {
-  @apply text-white pb-[6px] text-[24px];
+  @apply text-white pb-[6px] text-[24px] font-bold ;
+}
+
+.title_2_first{ 
+    @apply text-[#C1A457] pb-[6px] text-[24px] font-bold ;
 }
 
 .logo {

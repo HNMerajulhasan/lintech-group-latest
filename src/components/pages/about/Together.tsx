@@ -43,13 +43,20 @@ const OurSolution = () => {
       <div className="w-full  text-black flex flex-col gap-[20px] md:gap-10 justify-between  lg:flex-row pb-[45px]  sm:pb-[50px]   xl:pb-[100px]  pt-[30px]  sm:pt-[30px]   xl:pt-[100px]">
         <div className="w-full lg:w-1/3">
           <div className="flex flex-col lg:flex-row gap-[24px] items-center justify-center lg:justify-start">
-            <Image
+         
+         
+         
+          <div className="w-[200px]">
+          <Image
               alt="ceo"
               width={80}
               height={80}
-              src="/images/about/ceo.png"
-              className="w-[clamp(80px,calc(80/1420*100vw),200px)]"
+              src="/images/about/ceo.jpg"
+              className="w-full rounded-full"
+              // className="w-[clamp(80px,calc(80/1420*100vw),200px)] rounded-full"
             />
+          </div>
+           
 
             <div>
               <h4 className=" text-[#282828] text-[clamp(16px,calc(18/1420*100vw),35px)] leading-[1.5]">

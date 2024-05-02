@@ -21,24 +21,24 @@ import instagram from "../../public/icons/instagram.svg";
 import facebook from "../../public/icons/facebook.svg";
 
 export const socialLinks = [
-  {
-    label: "WHATSAPP",
-    url: "#",
-    img: whatsapp,
-  },
+  // {
+  //   label: "WHATSAPP",
+  //   url: "#",
+  //   img: whatsapp,
+  // },
   {
     label: "TIKTOK",
-    url: "#",
+    url: "Tiktok - https://www.tiktok.com/@luxetransformations?_t=8lqxi19gU4G&_r=1",
     img: tiktok,
   },
   {
     label: "INSTAGRAM",
-    url: "#",
+    url: "https://www.instagram.com/luxe_transformations_official?igsh=MTVhMWVjNzRmbGZ3aw==",
     img: instagram,
   },
   {
     label: "FACEBOOK",
-    url: "#",
+    url: " https://www.facebook.com/Luxetransformations",
     img: facebook,
   },
   // {
