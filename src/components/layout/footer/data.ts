@@ -14,10 +14,10 @@ export const quickLinks = [
         title: "Testimonials",
         link: "/testimonial",
       },
-      {
-        title: "Portfolio",
-        link: "/portfolio",
-      },
+      // {
+      //   title: "Portfolio",
+      //   link: "/portfolio",
+      // },
       {
         title: "Gallery",
         link: "/gallery",

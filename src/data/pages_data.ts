@@ -3,7 +3,9 @@ export const pages_data = [
     id: "1",
     label: "Restaurant Franchise Services",
     type: "Commercial",
-    link: "/services/restaurant-franchise-services",
+    // link: "/services/restaurant-franchise-services",
+    link: "/contact",
+
 
     content: {
       header_title_1: "Restaurant",
@@ -168,7 +170,9 @@ export const pages_data = [
     id: "4",
     label: "Office Space Renovation",
     type: "Commercial",
-    link: "/services/office-space-renovation",
+    // link: "/services/office-space-renovation",
+    link: "/contact",
+
     content: {
       header_title_1: "Office Space",
       header_title_2: "Renovation",
@@ -190,7 +194,9 @@ export const pages_data = [
     id: "5",
     label: "Retail Space Renovation",
     type: "Commercial",
-    link: "/services/retail-space-renovation",
+    // link: "/services/retail-space-renovation",
+    link: "/contact",
+
     content: {
       header_title_1: "Retail Space",
       header_title_2: "Renovation",
@@ -211,7 +217,9 @@ export const pages_data = [
     id: "6",
     label: "Night Club Renovation",
     type: "Commercial",
-    link: "/services/night-club-renovation",
+    // link: "/services/night-club-renovation",
+    link: "/contact",
+
     content: {
       header_title_1: "Night Club",
       header_title_2: "Renovation",
@@ -233,7 +241,9 @@ export const pages_data = [
     id: "7",
     label: "Bar Renovation",
     type: "Commercial",
-    link: "/services/bar-renovation",
+    // link: "/services/bar-renovation",
+    link: "/contact",
+
 
     content: {
       header_title_1: "Bar",

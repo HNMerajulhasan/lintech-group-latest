@@ -20,11 +20,11 @@ export const listItems = [
     id: "1",
     component: <ServicesComponent />,
   },
-  {
-    title: "PORTFOLIO",
-    id: "2",
-    link: "/portfolio",
-  },
+  // {
+  //   title: "PORTFOLIO",
+  //   id: "2",
+  //   link: "/portfolio",
+  // },
 
   {
     title: "GALLERY",

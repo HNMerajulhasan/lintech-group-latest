@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useRef, useState } from "react";
 import HeaderTitle from "@/components/reuseables/HeaderTitle/HeaderTitle";
 
 import { testimonials } from "./data";
@@ -20,6 +20,7 @@ interface IImage {
   id?: any;
   image?: any;
   video?: any;
+
 }
 
 const Testimonials = ({
@@ -38,6 +39,44 @@ const Testimonials = ({
   images?: IImage[];
   // video?: IImage[];
 }) => {
+
+
+  // const handlePlayVideo = (videoSrc: string, index: number) => {
+  //   const videoElement = document.getElementById(`testimonialVideo${index}`) as HTMLVideoElement;
+  //   if (videoElement) {
+  //     if (videoElement.paused) {
+  //       videoElement.src = videoSrc;
+  //       videoElement.play();
+  //     } else {
+  //       videoElement.pause();
+  //     }
+  //   }
+  // };
+
+  const handlePlayVideo = (videoSrc: string, index: number) => {
+    const videoElement = document.getElementById(`testimonialVideo${index}`) as HTMLVideoElement;
+    if (videoElement) {
+      if (videoElement.paused) {
+        videoElement.play();
+      } else {
+        videoElement.pause();
+      }
+    }
+  };
+
+
+
+  // const handlePlayVideo = (videoSrc: string, index: number) => {
+  //   const videoElement = document.getElementById(`testimonialVideo${index}`) as HTMLVideoElement;
+  //   if (videoElement) {
+  //     videoElement.src = videoSrc;
+  //   }
+  // };
+  
+
+ 
+
+
   return (
     <>
       <main className={styles.main}>
@@ -75,7 +114,13 @@ const Testimonials = ({
                 className={styles.testimonial}
               >
                 <div className={styles.testimonial_play_overflow}>
-                  <button key={item?.id} className={styles.testimonial_play}>
+                  <button
+                    key={item?.id}
+                    className={styles.testimonial_play}
+                    onClick={() => handlePlayVideo(item.video, index)}
+
+                    // onClick={() => handlePlayVideo(item.video)}
+                  >
                     <Image
                       src={play_icon}
                       alt="play_icon"
@@ -83,15 +128,16 @@ const Testimonials = ({
                     />
                   </button>
                 </div>
+
                 {item.video ? (
-                  <motion.video
-                    key={item.id}
+                 <motion.video
+                    id={`testimonialVideo${index}`}
                     width={500}
                     height={593}
                     src={item?.video}
-                    autoPlay
+                    // autoPlay
                     loop
-                    muted
+                    // muted
                     className={styles.testimonial_video}
                   />
                 ) : (
@@ -113,7 +159,3 @@ const Testimonials = ({
 };
 
 export default Testimonials;
-
-{
-  /* 2*/
-}
