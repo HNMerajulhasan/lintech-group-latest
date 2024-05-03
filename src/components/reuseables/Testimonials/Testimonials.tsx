@@ -41,20 +41,6 @@ const Testimonials = ({
 }) => {
 
 
- 
-  // const handlePlayVideo = (videoSrc: string, index: number) => {
-  //   const videoElement = document.getElementById(`testimonialVideo${index}`) as HTMLVideoElement;
-  //   if (videoElement) {
-  //     if (videoElement.paused) {
-  //       videoElement.play();
-  //     } else {
-  //       videoElement.pause();
-  //     }
-  //   }
-  // };
-
-
-
   const [currentVideoIndex, setCurrentVideoIndex] = useState<number | null>(null);
 
   const handlePlayVideo = (videoSrc: string, index: number) => {
@@ -123,13 +109,11 @@ const Testimonials = ({
                 key={item?.id || `${index}`}
                 className={styles.testimonial}
               >
-                <div className={styles.testimonial_play_overflow}>
+               {item.video && <div className={styles.testimonial_play_overflow}>
                   <button
                     key={item?.id}
                     className={styles.testimonial_play}
                     onClick={() => handlePlayVideo(item.video, index)}
-
-                    // onClick={() => handlePlayVideo(item.video)}
                   >
                     <Image
                       src={play_icon}
@@ -137,7 +121,7 @@ const Testimonials = ({
                       className={styles.testimonial_play_img}
                     />
                   </button>
-                </div>
+                </div>}
 
                 {item.video ? (
                  <motion.video

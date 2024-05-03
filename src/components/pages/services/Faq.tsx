@@ -8,26 +8,55 @@ import HeaderTitle from "@/components/reuseables/HeaderTitle/HeaderTitle";
 
 import Image from "next/image";
 
-const FaqSection = () => {
+interface Homefaqs {
+  id: string;
+  item: string;
+}
+
+interface HomefaqProps {
+  data?: Homefaqs[];
+}
+
+
+const FaqSection = ({data}:HomefaqProps) => {
   const FaqData = [
+    // {
+    //   id: "01",
+    //   title: "How long does the luxury renovation process typically take?",
+    //   content:
+    //     "Lorem ipsum dolor sit amet consectetur. Pulvinar arcu mattis in at sodales condimentum. Gravida arcu aliquet rutrum erat varius. Tellus felis sed pretium in egestas. Lorem ipsum dolor sit amet consectetur. Pulvinar arcu mattis in at sodales condimentum. Gravida arcu aliquet rutrum erat varius. Tellus felis sed pretium in egestas. Lorem ipsum dolor sit amet consectetur. Pulvinar arcu mattis in at sodales condimentum. Gravida arcu aliquet rutrum erat varius. Tellus felis sed pretium in egestas. Lorem ipsum dolor sit amet consectetur.",
+    // },
+    // {
+    //   id: "02",
+    //   title: "What sets your luxury renovation process apart from others?",
+    //   content:
+    //     "Our process is a meticulous blend of vision, precision, and innovation, categorized into distinct stages. From conceptualization to the final touches, each step is designed to elevate your space with unparalleled craftsmanship and attention to detail.",
+    // },
+    // {
+    //   id: "03",
+    //   title:
+    //     "Can I be involved in the decision-making process during the renovation?",
+    //   content:
+    //     "Lorem ipsum dolor sit amet consectetur. Pulvinar arcu mattis in at sodales condimentum. Gravida arcu aliquet rutrum erat varius. Tellus felis sed pretium in egestas. Lorem ipsum dolor sit amet consectetur. Pulvinar arcu mattis in at sodales condimentum. Gravida arcu aliquet rutrum erat varius. Tellus felis sed pretium in egestas. Lorem ipsum dolor sit amet consectetur. Pulvinar arcu mattis in at sodales condimentum. Gravida arcu aliquet rutrum erat varius. Tellus felis sed pretium in egestas. Lorem ipsum dolor sit amet consectetur.",
+    // },
     {
       id: "01",
-      title: "How long does the luxury renovation process typically take?",
+      title: "What makes Luxe Transformations different from other renovation companies?",
       content:
-        "Lorem ipsum dolor sit amet consectetur. Pulvinar arcu mattis in at sodales condimentum. Gravida arcu aliquet rutrum erat varius. Tellus felis sed pretium in egestas. Lorem ipsum dolor sit amet consectetur. Pulvinar arcu mattis in at sodales condimentum. Gravida arcu aliquet rutrum erat varius. Tellus felis sed pretium in egestas. Lorem ipsum dolor sit amet consectetur. Pulvinar arcu mattis in at sodales condimentum. Gravida arcu aliquet rutrum erat varius. Tellus felis sed pretium in egestas. Lorem ipsum dolor sit amet consectetur.",
+        "L At Luxe Tranformations, we distinguish ourselves through our unwavering commitment to bespoke craftsmanship and meticulous attention to detail. Each project is approached with a deep understanding of our client's vision and is executed using high-quality materials and cutting-edge design. Our dedication to creating uniquely personalized spaces that enhance and reflect the lifestyles of our clients sets us apart in the industry.   ",
     },
     {
       id: "02",
-      title: "What sets your luxury renovation process apart from others?",
+      title: "How do you ensure a project meets the client's expectations?",
       content:
-        "Our process is a meticulous blend of vision, precision, and innovation, categorized into distinct stages. From conceptualization to the final touches, each step is designed to elevate your space with unparalleled craftsmanship and attention to detail.",
+        "We begin each project with a thorough consultation to fully understand your expectations and preferences. Throughout the renovation process, we maintain open lines of communication, offering regular updates and modifications as needed to ensure the final outcome aligns perfectly with your vision. Our project managers are committed to excellence, ensuring each detail is perfected to your satisfaction.  ",
     },
     {
       id: "03",
       title:
-        "Can I be involved in the decision-making process during the renovation?",
+        "What should I consider before beginning a renovation project?",
       content:
-        "Lorem ipsum dolor sit amet consectetur. Pulvinar arcu mattis in at sodales condimentum. Gravida arcu aliquet rutrum erat varius. Tellus felis sed pretium in egestas. Lorem ipsum dolor sit amet consectetur. Pulvinar arcu mattis in at sodales condimentum. Gravida arcu aliquet rutrum erat varius. Tellus felis sed pretium in egestas. Lorem ipsum dolor sit amet consectetur. Pulvinar arcu mattis in at sodales condimentum. Gravida arcu aliquet rutrum erat varius. Tellus felis sed pretium in egestas. Lorem ipsum dolor sit amet consectetur.",
+        " Before embarking on a renovation, consider the scope of your project, your budget, and the timeline. It's crucial to have a clear idea of what you want to achieve and any specific requirements, such as eco-friendly materials or technologies. We recommend consulting with our design team who can provide expert guidance and help outline a clear plan that ensures your renovation goals are met efficiently and effectively.  ",
     },
   ];
 
@@ -106,3 +135,6 @@ const FaqSection = () => {
 };
 
 export default FaqSection;
+
+
+

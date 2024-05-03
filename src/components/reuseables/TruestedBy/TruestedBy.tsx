@@ -10,7 +10,8 @@ function TruestedBy({ title_color = "#100E10" }: { title_color?: string }) {
   return (
     <div className={styles.main}>
       <h2 className={styles.title} style={{ color: title_color }}>
-        COLLABORATED WITH
+        {/* COLLABORATED WITH */}
+        OUR CLIENTS
       </h2>
 
       <Marquee className="my-[40px]  z-0">
