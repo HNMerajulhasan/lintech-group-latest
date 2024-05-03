@@ -15,19 +15,35 @@ import { processes } from "./data";
 
 import styles from "./styles.module.css";
 
+
+
+
+
+
+
+
+
+
+
 const HomepageOurProcess = () => {
   const [windowWidth] = useWindowSize();
   const stopAnimation = windowWidth < 965;
 
   let totalChildren = 0;
+
   processes.map((x) => {
     totalChildren += x?.children?.length || 0;
   });
+
+
+
   const ref = React.useRef(null);
   const { scrollYProgress } = useScroll({
     target: ref,
     offset: ["start end", "end start"],
   });
+
+
   const aa = useTransform(scrollYProgress, [0, 1], [1, 100]);
 
   const shiftX = useSpring(aa, {
@@ -38,9 +54,13 @@ const HomepageOurProcess = () => {
 
   const [ev, setev] = React.useState(0);
 
+
   useMotionValueEvent(shiftX, "change", (latest) => {
     setev(latest);
   });
+
+
+  
 
   return (
     <div className="relative">
@@ -52,6 +72,8 @@ const HomepageOurProcess = () => {
           description=" Our luxury renovation process blends meticulous planning, craftsmanship, and innovation seamlessly, creating a living masterpiece in four key stages."
           description_color="#A9A9A9"
         />
+
+
 
         <motion.div className={styles.processes} ref={ref}>
           {processes.map((parent) => {
@@ -81,7 +103,7 @@ const HomepageOurProcess = () => {
                             ? index * 10
                             : index * 20
                           : ev * index,
-                      }}>
+                      }} >
                       <div className={styles.process_badge}>{index + 1}</div>
                       <span className={styles.process_text}>{item?.label}</span>
                     </motion.div>

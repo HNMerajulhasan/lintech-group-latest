@@ -26,6 +26,8 @@ const HomepagePastProjects = () => {
           <div className={styles.project_count_inner}>
             <span>500+ PROJECTS</span>
           </div>
+
+
           <motion.div
             className={styles.project_count_line}
             whileInView="visible"
@@ -38,6 +40,11 @@ const HomepagePastProjects = () => {
             }}
           />
         </div>
+
+
+
+
+
 
         <section className={styles.projects_container}>
           <div className={styles.projects_container_left}>

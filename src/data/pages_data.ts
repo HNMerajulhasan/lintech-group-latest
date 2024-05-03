@@ -265,7 +265,9 @@ export const pages_data = [
     id: "8",
     label: "HMO Renovation",
     type: "Commercial",
-    link: "/services/hmo-renovation",
+    // link: "/services/hmo-renovation",
+    link: "/contact",
+
 
     content: {
       header_title_1: "HMO",
@@ -292,7 +294,8 @@ export const pages_data = [
       header_title_2: "Home",
       header_title_3: "Renovation",
       header_description:
-        "Elevate Your Urban Living Experience to Unprecedented Heights of Luxury and Comfort with Luxurious Apartment Renovation Solutions Tailored to Your Unique Lifestyle Needs",
+      "we are dedicated to bringing exceptional quality and bespoke design to every renovation project across the UK. Whether it's a luxurious property renovation in London, across the UK or international a comprehensive house refurbishment elsewhere, each client's vision to life with sophistication and precision. If you're looking to transform your home into a luxurious sanctuary, you're in the right place.",
+        // "Elevate Your Urban Living Experience to Unprecedented Heights of Luxury and Comfort with Luxurious Apartment Renovation Solutions Tailored to Your Unique Lifestyle Needs",
       header_image_1: "/images/home/homepage_header_1.jpg",
       header_image_2: "/images/home/homepage_header_2.png",
       header_image_3: "/images/home/homepage_header_3.png",
@@ -301,12 +304,15 @@ export const pages_data = [
         "Luxe Transformation specializes in transforming urban living spaces into luxurious retreats tailored to modern lifestyles. Our apartment renovation services focus on maximizing space, enhancing functionality, and infusing sophisticated design elements to create a bespoke living experience. From sleek contemporary designs to timeless elegance, we cater to diverse tastes and preferences, ensuring that every apartment renovation exceeds expectations. Whether you're looking to refresh a cozy city loft or modernize a high-rise penthouse, trust Luxe Transformation to elevate your urban oasis to new levels of luxury and comfort, providing you with a sanctuary where you can truly feel at home.",
       solution_text_2: "",
     },
+    
   },
   {
     id: "10",
     label: "Luxury Apartment Renovation",
     type: "Residential",
-    link: "/services/luxury-apartment-renovation",
+    // link: "/services/luxury-apartment-renovation",
+    link: "/contact",
+
     content: {
       header_title_1: "Luxury",
       header_title_2: "Apartment",
@@ -326,7 +332,9 @@ export const pages_data = [
     id: "11",
     label: "Luxury House Renovation",
     type: "Residential",
-    link: "/services/luxury-house-renovation",
+    // link: "/services/luxury-house-renovation",
+    link: "/contact",
+
     content: {
       header_title_1: "Luxury",
       header_title_2: "House",
@@ -361,7 +369,9 @@ export const pages_data = [
     id: "12",
     label: "Luxury Mansion Renovation",
     type: "Residential",
-    link: "/services/luxury-mansion-renovation",
+    // link: "/services/luxury-mansion-renovation",
+    link: "/contact",
+
     content: {
       header_title_1: "Luxury",
       header_title_2: "Mansion",
@@ -382,7 +392,9 @@ export const pages_data = [
     id: "13",
     label: "Luxury Living Room Renovation",
     type: "Residential",
-    link: "/services/luxury-living-room-renovation",
+    // link: "/services/luxury-living-room-renovation",
+    link: "/contact",
+
     content: {
       header_title_1: "Luxury",
       header_title_2: "Living Room",
@@ -417,7 +429,9 @@ export const pages_data = [
     id: "14",
     label: "Luxury Villa Renovation",
     type: "Residential",
-    link: "/services/luxury-villa-renovation",
+    // link: "/services/luxury-villa-renovation",
+    link: "/contact",
+
     content: {
       header_title_1: "Luxury",
       header_title_2: "Villa",
@@ -438,7 +452,9 @@ export const pages_data = [
     id: "15",
     label: "Luxury Bathroom Renovation",
     type: "Residential",
-    link: "/services/luxury-bathroom-renovation",
+    // link: "/services/luxury-bathroom-renovation",
+    link: "/contact",
+
     content: {
       header_title_1: "Luxury",
       header_title_2: "Bathroom",
@@ -473,7 +489,9 @@ export const pages_data = [
     id: "16",
     label: "Luxury Kitchen Renovation",
     type: "Residential",
-    link: "/services/luxury-kitchen-renovation",
+    // link: "/services/luxury-kitchen-renovation",
+    link: "/contact",
+
     content: {
       header_title_1: "Luxury",
       header_title_2: "Kitchen",

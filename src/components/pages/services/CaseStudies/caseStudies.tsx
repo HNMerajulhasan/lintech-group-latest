@@ -6,6 +6,7 @@ import arrorw_top_right_white from "@/assets/icons/arrorw_top_right_white.svg";
 import Button from "@/components/reuseables/Button/Button";
 import { motion } from "framer-motion";
 import styles from "./styles.module.css";
+import Link from "next/link";
 
 interface IData {
   title?: string;
@@ -115,12 +116,15 @@ function CaseStudies({
               <div className={styles.box_wrapper_inner}>
                 <div className={styles.box_wrapper_h4_wrapper}>
                   <h4 className={styles.box_wrapper_h4}>{item.title}</h4>
+                  
 
+                  <Link href={"/contact"} >
                   <Image
                     alt="arrorw_top_right_white"
                     src={arrorw_top_right_white}
                     className="w-[clamp(16px,calc(20/1420*100vw),50px)]"
                   />
+                  </Link>
                 </div>
                 <div className="text-[#a9a9a9] font-normal mb-[20px] lg:mb-0 text-[clamp(16px,calc(20/1420*100vw),20px)]">
                   {item.description}
