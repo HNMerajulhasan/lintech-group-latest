@@ -48,7 +48,7 @@ const HomepagePastProjects = () => {
 
         <section className={styles.projects_container}>
           <div className={styles.projects_container_left}>
-            <div className={styles.sticky_container}>
+            <div className={`${styles.sticky_container}`}>
               <Button
                 title="ALL CASES"
                 width="229px"
@@ -56,6 +56,9 @@ const HomepagePastProjects = () => {
                 navigateTo="/portfolio"
               />
             </div>
+
+
+
           </div>
 
           <div className={styles.projects}>
