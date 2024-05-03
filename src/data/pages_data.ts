@@ -265,7 +265,9 @@ export const pages_data = [
     id: "8",
     label: "HMO Renovation",
     type: "Commercial",
-    link: "/services/hmo-renovation",
+    // link: "/services/hmo-renovation",
+    link: "/contact",
+
 
     content: {
       header_title_1: "HMO",
@@ -308,7 +310,9 @@ export const pages_data = [
     id: "10",
     label: "Luxury Apartment Renovation",
     type: "Residential",
-    link: "/services/luxury-apartment-renovation",
+    // link: "/services/luxury-apartment-renovation",
+    link: "/contact",
+
     content: {
       header_title_1: "Luxury",
       header_title_2: "Apartment",
@@ -328,7 +332,9 @@ export const pages_data = [
     id: "11",
     label: "Luxury House Renovation",
     type: "Residential",
-    link: "/services/luxury-house-renovation",
+    // link: "/services/luxury-house-renovation",
+    link: "/contact",
+
     content: {
       header_title_1: "Luxury",
       header_title_2: "House",
@@ -363,7 +369,9 @@ export const pages_data = [
     id: "12",
     label: "Luxury Mansion Renovation",
     type: "Residential",
-    link: "/services/luxury-mansion-renovation",
+    // link: "/services/luxury-mansion-renovation",
+    link: "/contact",
+
     content: {
       header_title_1: "Luxury",
       header_title_2: "Mansion",
@@ -384,7 +392,9 @@ export const pages_data = [
     id: "13",
     label: "Luxury Living Room Renovation",
     type: "Residential",
-    link: "/services/luxury-living-room-renovation",
+    // link: "/services/luxury-living-room-renovation",
+    link: "/contact",
+
     content: {
       header_title_1: "Luxury",
       header_title_2: "Living Room",
@@ -419,7 +429,9 @@ export const pages_data = [
     id: "14",
     label: "Luxury Villa Renovation",
     type: "Residential",
-    link: "/services/luxury-villa-renovation",
+    // link: "/services/luxury-villa-renovation",
+    link: "/contact",
+
     content: {
       header_title_1: "Luxury",
       header_title_2: "Villa",
@@ -440,7 +452,9 @@ export const pages_data = [
     id: "15",
     label: "Luxury Bathroom Renovation",
     type: "Residential",
-    link: "/services/luxury-bathroom-renovation",
+    // link: "/services/luxury-bathroom-renovation",
+    link: "/contact",
+
     content: {
       header_title_1: "Luxury",
       header_title_2: "Bathroom",
@@ -475,7 +489,9 @@ export const pages_data = [
     id: "16",
     label: "Luxury Kitchen Renovation",
     type: "Residential",
-    link: "/services/luxury-kitchen-renovation",
+    // link: "/services/luxury-kitchen-renovation",
+    link: "/contact",
+
     content: {
       header_title_1: "Luxury",
       header_title_2: "Kitchen",
