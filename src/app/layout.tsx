@@ -12,8 +12,8 @@ import "./globals.css";
 // };
 
 export const metadata: Metadata = {
-  title: "ALYF",
-  description: " ",
+  title: "Luxe-Transformation",
+  description: "Luxe Transformations - Where Comfort Meets Creativity",
   manifest: "/manifest.json",
   icons: {
     apple: "/icon-512x512.png",
