@@ -2,22 +2,29 @@ import type { Metadata } from "next";
 import ReduxProvider from "@/libs/state/reduxProvider";
 import { Archivo } from "next/font/google";
 import NextTopLoader from "nextjs-toploader";
-
 import "./globals.css";
+ 
 
 
-// export const metadata: Metadata = {
-//   title: "Luxe-Transformation",
-//   description: "luxe transformation landing page",
-// };
 
 export const metadata: Metadata = {
   title: "Luxe-Transformation",
   description: "Luxe Transformations - Where Comfort Meets Creativity",
   manifest: "/manifest.json",
   icons: {
-    apple: "/icon-512x512.png",
+    icon: [
+      {
+        url: '/icon-512x512.png',
+        href: '/icon-512x512.png ',
+      },
+    ],
   },
+
+  // icons: {
+  //   apple: "/icon-512x512.png",
+  // },
+
+  
 };
 
 
