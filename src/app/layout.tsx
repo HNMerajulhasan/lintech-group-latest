@@ -1,21 +1,33 @@
 import type { Metadata } from "next";
-
 import ReduxProvider from "@/libs/state/reduxProvider";
-
 import { Archivo } from "next/font/google";
 import NextTopLoader from "nextjs-toploader";
 
 import "./globals.css";
 
+
+// export const metadata: Metadata = {
+//   title: "Luxe-Transformation",
+//   description: "luxe transformation landing page",
+// };
+
 export const metadata: Metadata = {
-  title: "Luxe-Transformation",
-  description: "luxe transformation landing page",
+  title: "ALYF",
+  description: " ",
+  manifest: "/manifest.json",
+  icons: {
+    apple: "/icon-512x512.png",
+  },
 };
+
+
 
 const archivo = Archivo({
   variable: "--font-archivo",
   subsets: ["latin"],
 });
+
+
 
 export default function RootLayout({
   children,

@@ -18,6 +18,7 @@
     "framer-motion": "^11.0.5",
     "gsap": "^3.12.5",
     "next": "14.1.0",
+    "next-pwa": "^5.6.0",
     "nextjs-toploader": "^1.6.11",
     "normalize-wheel": "^1.0.1",
     "react": "^18",
