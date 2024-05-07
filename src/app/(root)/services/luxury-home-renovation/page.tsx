@@ -23,7 +23,6 @@ function page() {
 
         <meta name="robots" content="index,follow" />
       </Head>
-      <header></header>
       <Servicepage page_id="luxury-home-renovation" />
     </>
   );
