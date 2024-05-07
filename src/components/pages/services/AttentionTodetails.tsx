@@ -14,11 +14,11 @@ const AttentionTodetails = () => {
         title_font_size="56px"
       />
 
-      <div className="flex flex-col gap-10 md:flex-row ">
+      <div className="flex flex-col gap-10 md:flex-row cursor-pointer ">
 
        {data.map((item, idx) => (
         <div className="" key={idx}>
-        <img src={item.img} alt="" />
+        <img src={item.img} alt="attention to details images" />
         </div>
        ))}
       </div>
