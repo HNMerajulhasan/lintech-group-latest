@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
 import "./style.css";
 
-export const metadata: Metadata = {
-  title: "Luxe-Transformation",
-  description: "Luxe Transformations - Where Comfort Meets Creativity",
-  manifest: "/manifest.json",
-  icons: {
-    apple: "/icon-512x512.png",
-  },
-};
+// export const metadata: Metadata = {
+//   title: "Luxe-Transformation",
+//   description: "Luxe Transformations - Where Comfort Meets Creativity",
+//   manifest: "/manifest.json",
+//   icons: {
+//     apple: "/icon-512x512.png",
+//   },
+// };
 
 
 

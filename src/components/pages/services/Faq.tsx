@@ -43,7 +43,7 @@ const FaqSection = ({data}:HomefaqProps) => {
       id: "01",
       title: "What makes Luxe Transformations different from other renovation companies?",
       content:
-        "L At Luxe Tranformations, we distinguish ourselves through our unwavering commitment to bespoke craftsmanship and meticulous attention to detail. Each project is approached with a deep understanding of our client's vision and is executed using high-quality materials and cutting-edge design. Our dedication to creating uniquely personalized spaces that enhance and reflect the lifestyles of our clients sets us apart in the industry.   ",
+        "At Luxe Tranformations, we distinguish ourselves through our unwavering commitment to bespoke craftsmanship and meticulous attention to detail. Each project is approached with a deep understanding of our client's vision and is executed using high-quality materials and cutting-edge design. Our dedication to creating uniquely personalized spaces that enhance and reflect the lifestyles of our clients sets us apart in the industry.   ",
     },
     {
       id: "02",

@@ -4,7 +4,7 @@ import React from "react";
 
 const AttentionTodetails = () => {
   return (
-    <main>
+    <section>
       <HeaderTitle
         title_top="ATTENTION TO DETAILS"
         description="From the precision of finely crafted joinery to the exacting standards of our bespoke interior finishes, every element of your renovation is executed with uncompromising precision."
@@ -22,7 +22,7 @@ const AttentionTodetails = () => {
         </div>
        ))}
       </div>
-    </main>
+    </section>
   );
 };
 

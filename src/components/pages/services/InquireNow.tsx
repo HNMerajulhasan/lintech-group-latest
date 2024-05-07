@@ -9,7 +9,7 @@ const InquireNow = ({}) => {
      <Link href={"/contact"}>
      <div className="w-48">
         <Button
-          title="Inqure Now"
+          title="INQUIRE NOW"
           background="#100E10"
           width="170px"
           color="#ffffff"
@@ -19,8 +19,8 @@ const InquireNow = ({}) => {
      </Link>
     
 
-      <div
-        className="
+      <section
+        className="px-4
         flex  flex-col justify-between gap-[32px] sm:gap-[50px] 3xl:gap-[100px]
         w-full
         lg:w-[clamp(100px,calc(890/1420*100vw),1200px)]
@@ -30,14 +30,20 @@ const InquireNow = ({}) => {
         <ul className="flex flex-col gap-5">
           {data.map((item, idx) => (
             <li key={idx} className="list-disc">
-              <p className="font-extrabold flex flex-col gap-2 md:block ">
-                {item.title}
-                <span className="font-extralight whitespace-normal">{item.text} </span>
+              <p className="flex flex-col gap-2 md:block ">
+               <strong>
+               {item.title}
+                </strong> 
+
+                <span className=" whitespace-normal">{item.text} </span>
               </p>
             </li>
           ))}
         </ul>
-      </div>
+      </section>
+
+
+
     </div>
   );
 };

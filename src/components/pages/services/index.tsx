@@ -24,6 +24,7 @@ import HomeProcess from "./HomeProcess/HomeProcess";
 import LuxeInAction from "./LuxeInAction";
 import AttentionTodetails from "./AttentionTodetails";
 import InquireNow from "./InquireNow";
+import HomeRenoCases from "./CaseStudies/HoemRenoCases";
 
 function ServicePage({ page_id }: { page_id?: string }) {
   const found_page = pages_data.find(
@@ -130,7 +131,7 @@ function ServicePage({ page_id }: { page_id?: string }) {
           </div>
 
           <section className="w-full text-black  bg-white overflow-x-hidden">
-            <CaseStudies
+            <HomeRenoCases
               caption_text={found_page?.content?.caseStudy?.caption_text}
               title_top={found_page?.content?.caseStudy?.title_top}
               description={found_page?.content?.caseStudy?.description}

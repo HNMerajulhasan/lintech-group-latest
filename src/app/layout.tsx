@@ -6,17 +6,75 @@ import NextTopLoader from "nextjs-toploader";
 
 import "./globals.css";
 import type { Metadata } from "next";
-
-
  
-export const metadata: Metadata = {
+
+
+type CustomMetadata = Metadata & {
+  canonical?: string;  
+  og?: {
+    title: string;
+    description: string;
+    image: string;
+    url: string;
+  };
+  structuredData: {
+    "@context": string;
+    "@type": string;
+    name: string;
+    url: string;
+    logo: string;
+    description: string;
+    sameAs: string[];
+};
+language: string;
+region: string
+};
+
+
+
+export const metadata: CustomMetadata = {
   title: "Luxe-Transformation",
   description: "Luxe Transformations - Where Comfort Meets Creativity",
   manifest: "/manifest.json",
   icons: {
     apple: "/icon-512x512.png",
   },
+  keywords: "comfort, creativity, luxury, transformation",
+  canonical: "https://luxe-transformations.vercel.app/",
+  og: {
+    title: "Luxe-Transformation",
+    description: "Luxe Transformations - Where Comfort Meets Creativity",
+    image: "/og-image.jpg",
+    url: "https://luxe-transformations.vercel.app/",
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@username",
+    title: "Luxe-Transformation",
+    description: "Luxe Transformations - Where Comfort Meets Creativity",
+    images: "/twitter-card-image.jpg",
+  },
+  structuredData: {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "Luxe Transformations",
+    url: "https://luxe-transformations.vercel.app/",
+    logo: "/icon-512x512.png",
+    description: "Transform your space with comfort and creativity.",
+    sameAs: [
+      "https://www.tiktok.com/@luxetransformations?_t=8lqxi19gU4G&_r=1",
+      "https://www.instagram.com/luxe_transformations_official?igsh=MTVhMWVjNzRmbGZ3aw==",
+      " https://www.facebook.com/Luxetransformations",
+    ],
+  },
+  language: "en-US",
+  region: "US",
+  viewport: "width=device-width, initial-scale=1.0",
 };
+
+
+
+
 
 
 
@@ -25,19 +83,14 @@ const archivo = Archivo({
   subsets: ["latin"],
 });
 
-
-
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-
-
-
     <html lang="en" suppressHydrationWarning={true}>
-        <Head>
+      <Head>
         {/* Google Tag Manager script */}
         <script
           dangerouslySetInnerHTML={{
@@ -51,24 +104,19 @@ export default function RootLayout({
         />
       </Head>
 
-
-
       <body className={archivo.variable}>
-          {/* Google Tag Manager noscript */}
-          <noscript
+        {/* Google Tag Manager noscript */}
+        <noscript
           dangerouslySetInnerHTML={{
             __html: `
               <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NF4BD6VP" height="0" width="0" style="display:none;visibility:hidden"></iframe>
             `,
           }}
         />
-        
+
         <NextTopLoader color="#c1a457" height={4} />
         <ReduxProvider>{children}</ReduxProvider>
       </body>
-
-
-
     </html>
   );
 }

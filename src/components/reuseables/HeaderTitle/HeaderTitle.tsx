@@ -9,6 +9,7 @@ function HeaderTitle({
   title_bottom2="",
   title_font_size = "100px",
   title_color = "#100E10",
+  font_Type = "",
   description = "",
   description_color = "#4E4E4E",
   description_max_width = "700px",
@@ -23,6 +24,7 @@ function HeaderTitle({
   description_color?: string;
   description_font_size?: "18px" | "20px";
   description_max_width?: string;
+  font_Type? : string;
 }) {
   let titleClassName = styles.h1_100px;
   if (title_font_size === "100px") titleClassName = styles.h1_100px;
@@ -30,6 +32,7 @@ function HeaderTitle({
 
   const titleStyle = {
     color: title_color,
+    fontFamily: font_Type,
   };
 
   const descriptionStyle = {
@@ -67,7 +70,7 @@ function HeaderTitle({
             visible: { opacity: 1, y: 0 },
             hidden: { opacity: 0, y: 150 },
           }}
-          className={titleClassName}
+          className={`${titleClassName}`}
           style={titleStyle}>
           {title_bottom}
         </motion.h1>

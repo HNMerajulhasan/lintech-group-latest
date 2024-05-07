@@ -294,7 +294,7 @@ export const pages_data = [
       header_title_2: "Home",
       header_title_3: "Renovation",
       header_description:
-      "we are dedicated to bringing exceptional quality and bespoke design to every renovation project across the UK. Whether it's a luxurious property renovation in London, across the UK or international a comprehensive house refurbishment elsewhere, each client's vision to life with sophistication and precision. If you're looking to transform your home into a luxurious sanctuary, you're in the right place.",
+      "We are dedicated to bringing exceptional quality and bespoke design to every renovation project across the UK. Whether it's a luxurious property renovation in London, across the UK or international a comprehensive house refurbishment elsewhere, each client's vision to life with sophistication and precision. If you're looking to transform your home into a luxurious sanctuary, you're in the right place.",
         // "Elevate Your Urban Living Experience to Unprecedented Heights of Luxury and Comfort with Luxurious Apartment Renovation Solutions Tailored to Your Unique Lifestyle Needs",
       header_image_1: "/images/home/homepage_header_1.jpg",
       header_image_2: "/images/home/homepage_header_2.png",

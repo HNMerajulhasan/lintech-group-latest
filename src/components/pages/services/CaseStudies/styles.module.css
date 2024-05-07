@@ -1,7 +1,7 @@
 .box_wrapper {
-  @apply lg:col-span-2 lg:flex lg:flex-col 
+  @apply relative lg:col-span-2 lg:flex lg:flex-col 
   lg:justify-between 
-  text-white font-archivo;
+  text-white font-archivo ;
 }
 
 .box_wrapper_inner {
@@ -10,6 +10,8 @@
 
 .box_wrapper_h4_wrapper {
   @apply border-t border-white w-fit flex gap-6 pt-5;
+  font-family: "Archivo", sans-serif;
+
   /* @apply border-t border-white w-fit flex gap-6 pt-5; */
 }
 .box_wrapper_h4 {
@@ -19,6 +21,7 @@
 
 .box_wrapper .box_wrapper_h4_wrapper {
   @apply relative;
+  
 }
 
 /* .box_wrapper .box_wrapper_h4_wrapper::after {

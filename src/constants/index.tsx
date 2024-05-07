@@ -33,12 +33,12 @@ export const socialLinks = [
   },
   {
     label: "INSTAGRAM",
-    url: "https://www.instagram.com/luxe_transformations_official?igsh=MTVhMWVjNzRmbGZ3aw==",
+    url: "https://www.instagram.com/luxe_transformations_official?igsh=MTVhMWVjNzRmbGZ3aw==" ,
     img: instagram,
   },
   {
     label: "FACEBOOK",
-    url: " https://www.facebook.com/Luxetransformations",
+    url: " https://www.facebook.com/Luxetransformations" ,
     img: facebook,
   },
   // {
