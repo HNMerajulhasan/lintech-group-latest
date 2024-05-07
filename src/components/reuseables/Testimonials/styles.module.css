@@ -7,7 +7,7 @@
 }
 
 .testimonial {
-  @apply rounded-[8px] relative  bg-gray-700
+  @apply rounded-[8px] relative  
   overflow-hidden flex-1 w-full
   h-[400px]
   sm:h-[clamp(200px,calc(593/1420*100vw),1200px)];
