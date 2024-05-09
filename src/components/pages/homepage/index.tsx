@@ -41,9 +41,9 @@ const Homepage = () => {
               description_color="#a9a9a9"
             />
             <HeaderThreeImages
-              image_1={"/images/home/homepage_banner_1.jpg"}
-              image_2={"/images/home/homepage_banner_2.jpg"}
-              image_3={"/images/home/homepage_banner_3.jpg"}
+              image_1={"/images/home/homepage_banner_1.webp"}
+              image_2={"/images/home/homepage_banner_2.webp"}
+              image_3={"/images/home/homepage_banner_3.webp"}
             />
           </div>
           <TruestedBy title_color="#ffffff" />
