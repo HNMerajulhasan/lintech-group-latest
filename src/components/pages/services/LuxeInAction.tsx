@@ -55,13 +55,16 @@ const LuxeInAction: React.FC = () => {
             <video
               id={`reelVideos${index}`}
               src={item?.video}
+              className=" lg:h-[750px] w-full"
               loop
             />
 
             <button
               key={item?.id}
               onClick={() => handlePlayVideo(item.video, index)}
-              className="absolute top-1/2 left-40 translate-x-1/2  translate-y-1/2"
+              className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+
+              // className="absolute top-1/2 left-40 translate-x-1/2  translate-y-1/2"
             >
               <Image
                 src={play_icon}
@@ -80,16 +83,18 @@ export default LuxeInAction;
 export const actionVideos = [
   {
     id: "3",
-    video: "/reel-01.mp4",
+    video: "/Luxe1.mp4",
   },
 
   {
     id: "2",
-    video: "/reel-02.mp4",
+    // video: "/reel-02.mp4",
+    video:"/Luxe2.mp4",
   },
 
   {
-    id: "1",
-    video: "/reel-03.mp4",
+    id: "3",
+    video:"/Luxe3.mp4",
+    // video: "/reel-03.mp4",
   },
 ];
