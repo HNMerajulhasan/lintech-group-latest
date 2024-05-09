@@ -41,7 +41,8 @@ function Footer() {
               <span>
                 <a href="tel:02038369086">020 3836 9086</a>
                 <br />
-                (Fri-Sat)
+                {/* (Fri-Sat) */}
+               ( 9am-8pm Monday - Saturday )
               </span>
             </div>
             {/* <div>
