@@ -40,15 +40,42 @@ function Footer() {
               <Image src={call_white} alt={call_white} />
               <span>
                 <a href="tel:02038369086">020 3836 9086</a>
-                <br />
-                {/* (Fri-Sat) */}
-               ( 9am-8pm Monday - Saturday )
               </span>
             </div>
-            {/* <div>
-              <Image src={whatsapp_white} alt={whatsapp_white} />
-              <span>+447301253447</span>
-            </div> */}
+          </div>
+
+          <div className="flex flex-col gap-5">
+            <ul className="text-white flex flex-col gap-5">
+              <li className=" flex flex-col gap-2">
+             <strong className="text-lg">
+             Residential renovation project enquiries:{" "}
+              </strong>  
+                <span>
+                  <a href="mailto:Info@luxetransformations.co.uk">
+                    Info@luxetransformations.co.uk
+                  </a>
+                </span>
+              </li>
+
+              <li className="flex flex-col gap-2">
+            <strong className="text-lg"> Commercial renovation projects: </strong>   
+                <span>
+                  <a href="mailto: Commercial@luxetransformations.Co.uk ">
+                    Commercial@luxetransformations.co.uk
+                  </a>
+                </span>
+              </li>
+            </ul>
+
+            <ul className="text-white flex flex-col gap-2 ">
+              <li className="text-lg"><strong>Opening time:</strong></li>
+              <li>Monday - (9am - 8pm) </li>
+              <li>Tuesday - (9am - 8pm)</li>
+              <li>Wednesday - (9am - 8pm)</li>
+              <li>Thursday - (9am - 8pm)</li>
+              <li>Friday - (9am - 8pm)</li>
+              <li>Saturday - (9am - 8pm)</li>
+            </ul>
           </div>
         </div>
 

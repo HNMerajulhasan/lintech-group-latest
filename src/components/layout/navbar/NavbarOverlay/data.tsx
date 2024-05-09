@@ -16,8 +16,14 @@ const ServicesComponent = () => {
 
 export const listItems = [
   {
-    title: "SERVICES",
+    title: "HOME",
     id: "1",
+    link: "/",
+  },
+
+  {
+    title: "SERVICES",
+    id: "2",
     component: <ServicesComponent />,
   },
   // {
@@ -25,7 +31,7 @@ export const listItems = [
   //   id: "2",
   //   link: "/portfolio",
   // },
-
+ 
   {
     title: "GALLERY",
     id: "3",

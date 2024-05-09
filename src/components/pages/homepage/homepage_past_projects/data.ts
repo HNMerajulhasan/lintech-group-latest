@@ -3,7 +3,7 @@ export const projects = [
     id: "1",
     title: "Fulham House ",
     title_2: "Project",
-    description: `E-commerce for Lift eFoil, featuring cutting-edge technology including a powerful battery, specially designed and durable board, advanced propulsion system, high-performance carbon fiber hydrofoil components, and a convenient Bluetooth hand controller for the ultimate watersports experience.`,
+    description: `We undertook a comprehensive fitout of a luxurious residence, meticulously designed to complement a £10 million art collection. Each room was transformed with the utmost attention to detail, ensuring that the finishes and fixtures harmonized beautifully with the esteemed artworks. High-quality materials and bespoke design elements were thoughtfully selected to both showcase and enhance the art, creating an elegant and cohesive living space that serves as both a home and a gallery.`,
     category: "",
     quote: "'22",
     // image: "/images/home/st_athans_hotel.jpg",
@@ -13,8 +13,7 @@ export const projects = [
   {
     id: "2",
     title: "St.Athans Hotel",
-    description: `E-commerce for Lift eFoil, featuring cutting-edge technology including a powerful battery, specially designed and durable board, advanced propulsion system, high-performance carbon fiber hydrofoil components, and a convenient Bluetooth hand controller for the ultimate watersports experience.`,
-    category: "",
+    description: `Immerse yourself in the timeless charm of St. Athans Hotel UK, where history meets luxury in every corner. Our team embarked on a journey to enhance the hotel's character while preserving its heritage. From the elegant furnishings to the intricate decor, every aspect of St. Athans Hotel UK reflects a blend of classic elegance and modern comfort. Guests are invited to experience the epitome of hospitality in a setting that exudes warmth and sophistication.`,
     quote: "'22",
     image: "/images/home/st_athans_hotel.webp",
   },
@@ -41,7 +40,7 @@ export const projects = [
   {
     id: "5",
     title: "Chaiollogy",
-    description: `E-commerce for Lift eFoil, featuring cutting-edge technology including a powerful battery, specially designed and durable board, advanced propulsion system, high-performance carbon fiber hydrofoil components, and a convenient Bluetooth hand controller for the ultimate watersports experience.`,
+    description: `Experience the epitome of luxury dining at Chaiiology Harrow, where every detail is meticulously crafted to offer a sublime culinary experience. Our team transformed the restaurant into a sophisticated haven, blending modern design with traditional charm. From the elegant decor to the delectable cuisine, Chaiiology Harrow invites guests to indulge in a journey of  flavors and refinement.`,
     category: "",
     quote: "'22",
     image: "/images/home/chailo.jpg",
