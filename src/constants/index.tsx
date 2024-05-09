@@ -28,7 +28,7 @@ export const socialLinks = [
   // },
   {
     label: "TIKTOK",
-    url: "Tiktok - https://www.tiktok.com/@luxetransformations?_t=8lqxi19gU4G&_r=1",
+    url: "https://www.tiktok.com/@luxetransformations?_t=8lqxi19gU4G&_r=1  ",
     img: tiktok,
   },
   {
@@ -38,7 +38,7 @@ export const socialLinks = [
   },
   {
     label: "FACEBOOK",
-    url: " https://www.facebook.com/Luxetransformations" ,
+    url: "https://www.facebook.com/Luxetransformations" ,
     img: facebook,
   },
   // {
