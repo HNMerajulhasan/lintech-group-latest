@@ -17,15 +17,13 @@ import peakLuxe2 from "../../public/images/peak-luxe2.jpg";
 import peakLuxe3 from "../../public/images/peak-luxe3.jpg";
 import whatsapp from "../../public/icons/whastapp.svg";
 import tiktok from "../../public/icons/tiktok.svg";
+// import youtube from "../../public/icons/yt.svg";
+
 import instagram from "../../public/icons/instagram.svg";
 import facebook from "../../public/icons/facebook.svg";
 
 export const socialLinks = [
-  // {
-  //   label: "WHATSAPP",
-  //   url: "#",
-  //   img: whatsapp,
-  // },
+   
   {
     label: "TIKTOK",
     url: "https://www.tiktok.com/@luxetransformations?_t=8lqxi19gU4G&_r=1  ",
@@ -42,11 +40,11 @@ export const socialLinks = [
     img: facebook,
   },
   // {
-  //   label: "DRIBBLE",
-  //   url: "#",
-  //   // remove later
-  //   img: tiktok,
+  //   label: "YOUTUBE",
+  //   url: "https://www.facebook.com/Luxetransformations" ,
+  //   img: youtube,
   // },
+   
 ];
 
 export const heroImages = [

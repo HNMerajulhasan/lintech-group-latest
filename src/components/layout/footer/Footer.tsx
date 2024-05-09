@@ -45,7 +45,7 @@ function Footer() {
           </div>
 
           <div className="flex flex-col gap-5">
-            <ul className="text-white flex flex-col gap-5">
+            <ul className="text-white flex flex-col gap-5 cursor-pointer">
               <li className=" flex flex-col gap-2">
              <strong className="text-lg">
              Residential renovation project enquiries:{" "}
@@ -67,7 +67,7 @@ function Footer() {
               </li>
             </ul>
 
-            <ul className="text-white flex flex-col gap-2 ">
+            <ul className="text-white flex flex-col gap-2 cursor-pointer">
               <li className="text-lg"><strong>Opening time:</strong></li>
               <li>Monday - (9am - 8pm) </li>
               <li>Tuesday - (9am - 8pm)</li>
