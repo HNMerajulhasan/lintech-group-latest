@@ -47,7 +47,7 @@ function Footer() {
           <div className="flex flex-col gap-5">
             <ul className="text-white flex flex-col gap-5 cursor-pointer">
               <li className=" flex flex-col gap-2">
-             <strong className="text-lg">
+             <strong className="sm:text-lg">
              Residential renovation project enquiries:{" "}
               </strong>  
                 <span>
@@ -58,7 +58,7 @@ function Footer() {
               </li>
 
               <li className="flex flex-col gap-2">
-            <strong className="text-lg"> Commercial renovation projects: </strong>   
+            <strong className="sm:text-lg"> Commercial renovation projects: </strong>   
                 <span>
                   <a href="mailto: Commercial@luxetransformations.Co.uk ">
                     Commercial@luxetransformations.co.uk
