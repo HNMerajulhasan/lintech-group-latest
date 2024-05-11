@@ -20,7 +20,7 @@ const InquireNow = ({}) => {
     
 
       <section
-        className="px-4
+        className="font-archivo px-4
         flex  flex-col justify-between gap-[32px] sm:gap-[50px] 3xl:gap-[100px]
         w-full
         lg:w-[clamp(100px,calc(890/1420*100vw),1200px)]
@@ -29,7 +29,7 @@ const InquireNow = ({}) => {
       >
         <ul className="flex flex-col gap-5">
           {data.map((item, idx) => (
-            <li key={idx} className="list-disc">
+            <li key={idx} className="list-disc font-archivo"  style={{ fontFamily: 'Archivo, sans-serif' }} >
               <p className="flex flex-col gap-2 md:block ">
                <strong>
                {item.title}

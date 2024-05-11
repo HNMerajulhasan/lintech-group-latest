@@ -18,7 +18,7 @@ const OurSolution = () => {
         lg:w-[clamp(100px,calc(760/1420*100vw),1200px)]
         text-[clamp(18px,calc(24/1420*100vw),50px)]
         
-        font-thin">
+        font-thin" style={{ fontFamily: 'Archivo, sans-serif' }} >
           <p>
             Our journey is more than a narrative; it's a testament to our
             passion for transforming spaces into timeless havens of luxury. At

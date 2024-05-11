@@ -70,7 +70,7 @@ export const galleyData = {
       image: "/images/Gallery_Images/residential/23.webp",
     },
     {
-      image: "/images/Gallery_Images/residential/24.webp",
+      image: "/images/Gallery_Images/residential/24.jpeg",
     },
   ],
 
@@ -88,7 +88,7 @@ export const galleyData = {
       image: "/images/Gallery_Images/commercial/4.webp",
     },
     {
-      image: "/images/Gallery_Images/commercial/5.webp",
+      image: "/images/Gallery_Images/commercial/55.jpg",
     },
     {
       image: "/images/Gallery_Images/commercial/6.webp",

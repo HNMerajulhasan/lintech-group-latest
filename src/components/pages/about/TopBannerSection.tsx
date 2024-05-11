@@ -83,7 +83,8 @@ const TopBannerSection = () => {
                 visible: { opacity: 1, y: 0 },
                 hidden: { opacity: 0, y: 150 },
               }}
-              className=" text-[clamp(16px,calc(18/1420*100vw),30px)]  text-justify leading-2 text-[#a9a9a9]">
+              className=" text-[clamp(16px,calc(18/1420*100vw),30px)]  text-justify text-[#a9a9a9]" style={{ fontFamily: 'Archivo, sans-serif' }} >
+                {/* leading-2 */}
               Luxe Transformations is dedicated to transforming dreams into
               breathtaking realities through unparalleled craftsmanship and
               innovative design. Our mission is to elevate living spaces to new
@@ -148,7 +149,7 @@ const TopBannerSection = () => {
                 visible: { opacity: 1, y: 0 },
                 hidden: { opacity: 0, y: 150 },
               }}
-              className="mt-1  text-[clamp(18px,calc(20/1420*100vw),36px)]  leading-2 text-[#a9a9a9]">
+              className="mt-1  text-[clamp(18px,calc(20/1420*100vw),36px)]  leading-2 text-[#a9a9a9]" style={{ fontFamily: 'Archivo, sans-serif' }} >
               our success is defined by the numbers that reflect our commitment
               to excellence
               <br /> and the satisfaction of our clients
@@ -172,10 +173,10 @@ const TopBannerSection = () => {
                     alt={statistic.image}
                     className="w-14 h-14 mb-4"
                   />
-                  <h3 className="text-[clamp(14px,calc(16/1420*100vw),32px)] font-semibold text-center text-[#a9a9a9]">
+                  <h3 className="text-[clamp(14px,calc(16/1420*100vw),32px)] font-semibold text-center text-[#a9a9a9]" style={{ fontFamily: 'Archivo, sans-serif' }} >
                     {statistic.title}
                   </h3>
-                  <p className="text-[clamp(24px,calc(30/1420*100vw),60px)] text-center">
+                  <p className="text-[clamp(24px,calc(30/1420*100vw),60px)] text-center font-inter">
                     <AnimatedCountup
                       duration={statistic.duration}
                       maxNumber={Math.floor(statistic.percentage)}

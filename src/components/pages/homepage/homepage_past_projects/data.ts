@@ -21,8 +21,8 @@ export const projects = [
   {
     id: "3",
     title: "Karak chaii",
-    title_2: "Brook Hotel",
-    description: `E-commerce for Lift eFoil, featuring cutting-edge technology including a powerful battery, specially designed and durable board, advanced propulsion system, high-performance carbon fiber hydrofoil components, and a convenient Bluetooth hand controller for the ultimate watersports experience.`,
+    // title_2: "Brook Hotel",
+    description: `Karak Chaii®️ is rapidly defining the future of specialty chai with its authentic flavors and innovative approach. Since launching its flagship store, the brand has expanded impressively, establishing a second store in Handsworth within just 18 months, followed swiftly by their first franchise in Slough. Currently, Karak Chaii boasts 10 stores, with plans to extend to 50 more locations both nationally and internationally in the coming years. In our latest project, we undertook a luxurious renovation of their newest store, where tradition meets opulence. The fitout features bespoke design elements that reflect the brand’s heritage while incorporating modern luxuries that enhance the customer experience. Premium materials and intricate craftsmanship ensure that each visit to Karak Chaii is not just about enjoying a cup of chai but is an immersion in a refined, culturally rich atmosphere..`,
     category: "",
     quote: "'22",
     image: "/images/home/karrak.webp",
