@@ -24,18 +24,18 @@ const InquireNow = ({}) => {
         flex  flex-col justify-between gap-[32px] sm:gap-[50px] 3xl:gap-[100px]
         w-full
         lg:w-[clamp(100px,calc(890/1420*100vw),1200px)]
-        text-[clamp(18px,calc(24/1420*100vw),50px)]
+        text-[clamp(18px,calc(18/1420*100vw),50px)]
          md:text-start text-justify"
       >
         <ul className="flex flex-col gap-5">
           {data.map((item, idx) => (
-            <li key={idx} className="list-disc font-archivo"  style={{ fontFamily: 'Archivo, sans-serif' }} >
+            <li key={idx} className="list-disc font-archivo "  style={{ fontFamily: 'Archivo, sans-serif' }} >
               <p className="flex flex-col gap-2 md:block ">
                <strong>
                {item.title}
                 </strong> 
 
-                <span className=" whitespace-normal">{item.text} </span>
+                <span className=" whitespace-normal  text-[#4E4E4E]">{item.text} </span>
               </p>
             </li>
           ))}

@@ -33,8 +33,11 @@ function BorderedPageWrapper({
           // onClick={() => window.open("https://wa.me/+442038369086", "_blank")}
           className="fixed bottom-[40px] sm:bottom-[50px] z-10 right-padding-vertical-screen cursor-pointer   rounded-[40px] "
           style={{
-            background: light_bg ? undefined : "#0e0e0e",
+            // background: light_bg ? undefined : "#0e0e0e",
+            background:"#0e0e0e",
+
           }}>
+
           <Image
             width="80"
             alt="alt"
