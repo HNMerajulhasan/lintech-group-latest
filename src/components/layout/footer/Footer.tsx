@@ -68,7 +68,7 @@ function Footer() {
             </ul>
 
             <ul className="text-white flex flex-col gap-2 cursor-pointer">
-              <li className="text-lg"><strong>Opening time:</strong></li>
+              <li className="text-lg"><strong>Opening times:</strong></li>
               <li>Monday - (9am - 8pm) </li>
               <li>Tuesday - (9am - 8pm)</li>
               <li>Wednesday - (9am - 8pm)</li>
