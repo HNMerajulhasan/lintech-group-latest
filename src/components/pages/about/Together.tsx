@@ -59,7 +59,7 @@ const OurSolution = () => {
            
 
             <div>
-              <h4 className=" text-[#282828] text-[clamp(16px,calc(18/1420*100vw),35px)] leading-[1.5]">
+              <h4 className=" text-[#282828] text-[clamp(16px,calc(18/1420*100vw),35px)] leading-[1.5] lg:whitespace-nowrap">
               Mohammed Hassan Mohammed
               </h4>
               <h5 className="font-inter text-[#4E4E4E] text-[clamp(14px,calc(16/1420*100vw),30px)] leading-[1.5]">
@@ -77,7 +77,7 @@ const OurSolution = () => {
         
        ">
           <h1 className="text-[clamp(30px,calc(40/1420*100vw),100px)] leading-[1.2] font-semibold text-[#4E4E4E] font-archivo tracking-[-2%] italic text-center lg:text-left">
-            ‘"At Luxe Transformations, we turn visions into timeless masterpieces,
+            "At Luxe Transformations, we turn visions into timeless masterpieces,
             driven by excellence and a passion for craftsmanship."
           </h1>
         </div>
