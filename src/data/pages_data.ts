@@ -296,9 +296,9 @@ export const pages_data = [
       header_description:
       "We are dedicated to bringing exceptional quality and bespoke design to every renovation project across the UK. Whether it's a luxurious property renovation in London, across the UK or international a comprehensive house refurbishment elsewhere, each client's vision to life with sophistication and precision. If you're looking to transform your home into a luxurious sanctuary, you're in the right place.",
         // "Elevate Your Urban Living Experience to Unprecedented Heights of Luxury and Comfort with Luxurious Apartment Renovation Solutions Tailored to Your Unique Lifestyle Needs",
-      header_image_1: "/images/home/homerenovation_banner_1.jpg",
-      header_image_2: "/images/home/homerenovation_banner_2.jpg",
-      header_image_3: "/images/home/homerenovation_banner_3.jpg",
+      header_image_1: "/images/home/homerenovation_banner_1.webp",
+      header_image_2: "/images/home/homerenovation_banner_2.webp",
+      header_image_3: "/images/home/homerenovation_banner_3.webp",
 
       solution_text_1:
         "Luxe Transformation specializes in transforming urban living spaces into luxurious retreats tailored to modern lifestyles. Our apartment renovation services focus on maximizing space, enhancing functionality, and infusing sophisticated design elements to create a bespoke living experience. From sleek contemporary designs to timeless elegance, we cater to diverse tastes and preferences, ensuring that every apartment renovation exceeds expectations. Whether you're looking to refresh a cozy city loft or modernize a high-rise penthouse, trust Luxe Transformation to elevate your urban oasis to new levels of luxury and comfort, providing you with a sanctuary where you can truly feel at home.",
