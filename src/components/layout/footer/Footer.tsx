@@ -51,8 +51,9 @@ function Footer() {
              Residential renovation project enquiries:{" "}
               </strong>  
                 <span>
-                  <a href="mailto:Info@luxetransformations.co.uk">
-                    Info@luxetransformations.co.uk
+                  <a href="mailto:sales@luxetransformations.co.uk">
+                    sales@luxetransformations.co.uk
+                   
                   </a>
                 </span>
               </li>
@@ -60,8 +61,8 @@ function Footer() {
               <li className="flex flex-col gap-2">
             <strong className="sm:text-lg"> Commercial renovation projects: </strong>   
                 <span>
-                  <a href="mailto: Commercial@luxetransformations.Co.uk ">
-                    Commercial@luxetransformations.co.uk
+                  <a href="mailto: commercial@luxetransformations.co.uk ">
+                    commercial@luxetransformations.co.uk
                   </a>
                 </span>
               </li>

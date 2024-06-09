@@ -35,18 +35,23 @@ const useAxios = (): [
 
   const handleSubmit = async (cb = () => null) => {
     const data = {
-      first_name: formData.firstName,
-      last_name: formData.lastName,
-      phone: formData.phone,
-      email: formData.email,
-      company: formData.company,
-      deadline: formData.deadline,
-      message: formData.message,
-      question: questionsAndAnswers,
+      from: formData.email, // The sender's email address, usually required by the API
+      to: "sales@luxetransformations.co.uk,commercial@luxetransformations.co.uk,Mh@luxetransformations.co.uk",
+      subject: "FlashFit",
+      data: [{
+        first_name: formData.firstName,
+        last_name: formData.lastName,
+        phone: formData.phone,
+        email: formData.email,
+        company: formData.company,
+        deadline: formData.deadline,
+        message: formData.message,
+        question: questionsAndAnswers,
+      }]
     };
-
+  
     console.log("outside", data);
-
+  
     try {
       const response = await axios.post(
         "https://luxe-transformations-be.vercel.app/api/v1/contact",
@@ -55,7 +60,7 @@ const useAxios = (): [
       console.log("Submission successful");
       // Navigate to success page
       if (typeof cb === "function") cb();
-
+  
       // Clear form fields
       setFormData({
         firstName: "",
@@ -70,7 +75,7 @@ const useAxios = (): [
       console.error("Error submitting form:", error);
     }
   };
-
+  
   return [formData, handleInputChange, handleSubmit];
 };
 

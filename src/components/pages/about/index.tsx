@@ -37,7 +37,7 @@ const Homepage = () => {
         <div className="px-padding-vertical-screen bg-[#ffffff]">
           <Together />
 
-          
+{/*           
           <Testimonials
             title_top="OUR VALUES"
             title_color="#100E10"
@@ -48,7 +48,7 @@ const Homepage = () => {
               { id: 2, image: "/images/about/our_values_woman.png" },
               { id: 3, image: "/images/about/our_values_man_2.png" },
             ]}
-          />
+          /> */}
 
 
           

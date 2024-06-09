@@ -28,7 +28,7 @@ const TopBannerSection = () => {
       id: "3",
       image: "/images/about/cubeIcon.svg",
       title: "Client Retention Rate",
-      percentage: 80,
+      percentage: 92,
       prepend: "%",
       duration: 5,
     },
@@ -94,7 +94,7 @@ const TopBannerSection = () => {
           </div>
         </div>
         {/* banner image section*/}
-
+{/* 
         <div className="md:mt-14 mt-10">
           <motion.div
             whileInView="visible"
@@ -121,11 +121,11 @@ const TopBannerSection = () => {
               className={styles.testimonial_img}
             />
           </motion.div>
-        </div>
+        </div> */}
         {/* banner image section end here*/}
 
         {/* stattics section  */}
-        <div className="md:mt-28 mt-14">
+        <div className="md:mt-44 mt-14">
           <div className="text-center">
             <motion.h2
               whileInView="visible"
@@ -150,7 +150,7 @@ const TopBannerSection = () => {
                 hidden: { opacity: 0, y: 150 },
               }}
               className="mt-1  text-[clamp(18px,calc(20/1420*100vw),36px)]  leading-2 text-[#a9a9a9]" style={{ fontFamily: 'Archivo, sans-serif' }} >
-              our success is defined by the numbers that reflect our commitment
+              Our success is defined by the numbers that reflect our commitment
               to excellence
               <br /> and the satisfaction of our clients
             </motion.p>
