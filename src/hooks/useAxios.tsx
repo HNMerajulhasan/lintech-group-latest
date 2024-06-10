@@ -37,7 +37,7 @@ const useAxios = (): [
     const data = {
       from: formData.email, // The sender's email address, usually required by the API
       to: "sales@luxetransformations.co.uk,commercial@luxetransformations.co.uk,Mh@luxetransformations.co.uk",
-      subject: "FlashFit",
+      subject: "Admin | Luxe Transformation",
       data: [{
         first_name: formData.firstName,
         last_name: formData.lastName,
