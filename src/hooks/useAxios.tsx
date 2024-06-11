@@ -37,22 +37,15 @@ const useAxios = (): [
 
   const handleSubmit = async (cb = () => null) => {
     const data = {
-      from: formData.email, // The sender's email address, usually required by the API
-      to: "sales@luxetransformations.co.uk,commercial@luxetransformations.co.uk,Mh@luxetransformations.co.uk",
-      subject: "Admin | Luxe Transformation",
-      data: [{
-        first_name: formData.firstName,
-        last_name: formData.lastName,
-        phone: formData.phone,
-        email: formData.email,
-        company: formData.company,
-        deadline: formData.deadline,
-        message: formData.message,
-        question: questionsAndAnswers,
-      }]
-    };
-  
-    console.log("outside", data);
+      first_name: formData.firstName,
+      last_name: formData.lastName,
+      phone: formData.phone,
+      email: formData.email,
+      company: formData.company,
+      deadline: formData.deadline,
+      message: formData.message,
+      question: questionsAndAnswers,
+    }
   
     try {
       const response = await axios.post(
