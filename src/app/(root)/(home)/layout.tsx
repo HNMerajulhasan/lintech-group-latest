@@ -2,11 +2,11 @@ import type { Metadata } from "next";
 import "./style.css";
 
 export const metadata: Metadata = {
-  title: "Luxe-Transformation",
-  description: "Luxe Transformations - Where Comfort Meets Creativity",
+  title: "Lintech Group",
+  description: "Lintech Group - Where ideas Meets Creativity and Innovation",
   manifest: "/manifest.json",
   icons: {
-    apple: "/icon-512x512.png",
+    apple: "/lintech-group-icon/lintech_group_logo.jpeg",
   },
 };
 

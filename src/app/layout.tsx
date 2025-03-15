@@ -33,7 +33,7 @@ region: string
 
 
 export const metadata: CustomMetadata = {
-  title: "Luxe-Transformation",
+  title: "Lintech Group",
   description: "Luxe Transformations - Where Comfort Meets Creativity",
   manifest: "/manifest.json",
   icons: {
@@ -42,10 +42,10 @@ export const metadata: CustomMetadata = {
   keywords: "comfort, creativity, luxury, transformation",
   canonical: "https://luxe-transformations.vercel.app/",
   og: {
-    title: "Luxe-Transformation",
+    title: "Lintech Group",
     description: "Luxe Transformations - Where Comfort Meets Creativity",
     image: "/og-image.jpg",
-    url: "https://luxe-transformations.vercel.app/",
+    url: "",
   },
   twitter: {
     card: "summary_large_image",
@@ -59,7 +59,7 @@ export const metadata: CustomMetadata = {
     "@type": "Organization",
     name: "Luxe Transformations",
     url: "https://luxe-transformations.vercel.app/",
-    logo: "/icon-512x512.png",
+    logo: "/lintech-group-icon/lintech_group_logo.jpeg",
     description: "Transform your space with comfort and creativity.",
     sameAs: [
       "https://www.tiktok.com/@luxetransformations?_t=8lqxi19gU4G&_r=1",

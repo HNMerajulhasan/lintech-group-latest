@@ -17,7 +17,7 @@ function Footer() {
         <div>
           <Link href={"/"}>
             <Image
-              src="/icons/logo.svg"
+              src="/lintech-group-icon/lintech_group_logo.jpeg"
               alt="logo"
               width={300}
               height={100}

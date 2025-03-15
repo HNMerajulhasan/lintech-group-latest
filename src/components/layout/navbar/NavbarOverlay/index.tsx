@@ -17,7 +17,7 @@ function NavbarOverlay({ onClose = () => null }: { onClose?: any }) {
       <div className="w-full h-full rounded-[10px] overflow-hidden  flex flex-col items-start px-[clamp(15px,calc(45/1420*100vw),100px)] bg-[#0f0f0f]">
         <div className="flex w-full justify-between items-start   pt-[15px] sm:pt-[30px]">
           <Image
-            src={"/icons/logo.svg"}
+            src={"/lintech-group-icon/lintech_group_logo.jpeg"}
             alt="logo"
             width={123}
             height={54}

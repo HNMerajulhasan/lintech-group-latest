@@ -53,7 +53,7 @@ export const metadata: CustomMetadata = {
     "@type": "Organization",
     name: "Luxury Home Renovation - Bespoke Design & Quality",
     url: "https://luxe-transformations.vercel.app/",
-    logo: "/icon-512x512.png",
+    logo: "/lintech-group-icon/lintech_group_logo.jpeg",
     description: "Dedicated to providing exceptional quality and bespoke design to every renovation project across the UK and beyond. ",
     sameAs: [
       "https://www.tiktok.com/@luxetransformations?_t=8lqxi19gU4G&_r=1",
