@@ -35,10 +35,10 @@ export const quickLinks = [
 
   {
     hideInSmallScreen: true,
-    title: "Commercial Renovation",
+    title: "Development Renovation",
     children: [
       ...pages_data
-        .filter((item) => item.type === "Commercial")
+        .filter((item) => item.type === "Development")
         .map((item, index) => {
           return {
             id: `0${index + 1}`,
@@ -51,10 +51,10 @@ export const quickLinks = [
 
   {
     hideInSmallScreen: true,
-    title: "Residential Renovation",
+    title: "Marketing Renovation",
     children: [
       ...pages_data
-        .filter((item) => item.type === "Residential")
+        .filter((item) => item.type === "Marketing")
         .map((item, index) => {
           return {
             id: `0${index + 1}`,

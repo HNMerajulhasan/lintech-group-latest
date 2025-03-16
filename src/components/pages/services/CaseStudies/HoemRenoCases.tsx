@@ -20,7 +20,7 @@ interface IData {
 
 const default_data = [
   {
-    title: "Fulham house",
+    title: "You Want Beef",
     description:
       "We undertook a comprehensive fitout of a luxurious residence, meticulously designed to complement a £10 million art collection. Each room was transformed with the utmost attention to detail, ensuring that the finishes and fixtures harmonized beautifully with the esteemed artworks. High-quality materials and bespoke design elements were thoughtfully selected to both showcase and enhance the art, creating an elegant and cohesive living space that serves as both a home and a gallery.",
     image: "/images/services/Fulham_house.webp",

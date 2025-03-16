@@ -121,8 +121,8 @@ const categories = [
 
 const tabs = [
   { id: "1", title: "All" },
-  { id: "2", title: "Residential" },
-  { id: "3", title: "Commercial" },
+  { id: "2", title: "Development" },
+  { id: "3", title: "Marketing" },
 ];
 
 function MainSection() {

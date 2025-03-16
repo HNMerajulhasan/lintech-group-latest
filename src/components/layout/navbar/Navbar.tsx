@@ -77,10 +77,10 @@ function NavBar({ dark = true }: { dark?: boolean }) {
         <motion.div variants={getCardVariants(0)}>
           <Link href="/">
             <Image
-              src={dark ? "/icons/logo.svg" : "/icons/logo_dark.svg"}
+              src={dark ? "/lintech-group-icon/lintech_group_logo.jpeg" : "/lintech-group-icon/lintech_group_logo.jpeg"}
               alt="logo"
-              width={160}
-              height={50}
+              width={140}
+              height={160}
               className="w-[clamp(123px,calc(213/1420*100vw),200px)]  h-[clamp(54px,calc(54/1420*100vw),96px)]"
             />
           </Link>
@@ -102,7 +102,7 @@ function NavBar({ dark = true }: { dark?: boolean }) {
               alt="logo"
               className="w-[clamp(24px,calc(24/1420*100vw),36px)] "
             />
-            <span id="navbar_text_2">PROVIDE COMFORT AND ELEGANCE</span>
+            <span id="navbar_text_2">REVENUE FOCUSED SOLUTIONS</span>
           </p>
         </motion.div>
         <motion.div variants={getCardVariants(0.2)}>

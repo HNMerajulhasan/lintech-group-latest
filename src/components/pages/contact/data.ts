@@ -19,18 +19,18 @@ export const mainSelect = [
 const steps = {
   1: {
     title: "WHAT TYPE OF PROJECT",
-    options: ["COMMERCIAL", "RESIDENTIAL"],
+    options: ["DEVELOPMENT", "MARKETING"],
   },
 
   2: {
     title: "WHAT TYPE OF ",
-    COMMERCIAL: [
+    DEVELOPMENT: [
       "Hotel",
       "Office block",
       "Apartment block",
       "Restaurant/Franchise/Others",
     ],
-    RESIDENTIAL: [
+    MARKETING: [
       "Full refurbishment",
       "Partial refurbishment",
       "Loft conversion",

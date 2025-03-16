@@ -1,6 +1,6 @@
 "use client";
 import React, { useRef } from "react";
-import HeaderTitle from "@/components/reuseables/HeaderTitle/HeaderTitle";
+// import HeaderTitle from "@/components/reuseables/HeaderTitle/HeaderTitle";
 import Image from "next/image";
 import { boxes } from "./data";
 import arrow_left_circled_black from "@/assets/icons/arrow_left_circled_black.svg";
@@ -78,13 +78,13 @@ const HomepageLuxuryBrands = () => {
     <>
       <main className={styles.main}>
         <div className={styles.header_title}>
-          <HeaderTitle
+          {/* <HeaderTitle
             title_top="LUXURY BRAND PERKS"
             title_color="#fff"
             title_font_size="56px"
             description="Your journey to opulence begins with Luxe – Where Numbers Speak of Unrivaled Quality and Luxury."
             description_color="#A9A9A9"
-          />
+          /> */}
 
           <div className={styles.header_title_buttons}>
             <motion.div

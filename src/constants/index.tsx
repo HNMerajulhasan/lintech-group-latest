@@ -73,7 +73,7 @@ export const heroImages = [
 export const tabs = [
   {
     id: "1",
-    title: "Commercial",
+    title: "Development",
     items: [
       { id: "01", label: "Franchisee Renovation Services" },
       { id: "02", label: "Hotel Renovation Solutions" },
@@ -86,7 +86,7 @@ export const tabs = [
 
   {
     id: "2",
-    title: "Residential",
+    title: "Marketing",
     items: [
       { id: "01", label: "Luxury Home Renovation" },
       { id: "02", label: "Apartment Renovation Solutions" },
@@ -421,13 +421,13 @@ export const stepOne = [
   {
     title: "WHAT TYPE OF PROJECT?",
     id: 1,
-    label: "COMMERCIAL",
+    label: "DEVELOPMENT",
   },
 
   {
     title: "WHAT TYPE OF PROJECT?",
     id: 2,
-    label: "RESIDENTIAL",
+    label: "MARKETING",
   },
 ];
 

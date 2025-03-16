@@ -56,7 +56,7 @@ export default InquireNow;
 export const data = [
   {
     id: 1,
-    title:"Dedicated to Residential : ",
+    title:"Dedicated to Development : ",
     text: "Specialising in home renovations and house refurbishments, our expertise is tailored to renovating and restoring residential properties.",
   },
   {

@@ -35,15 +35,15 @@ const Homepage = () => {
           >
             <HeaderTitle
               title_color="#fff"
-              title_top="CRAFTING"
-              title_bottom="LUXURY SPACE"
-              description="Welcome to Luxe Transformations - Where Comfort Meets Creativity. Discover a world of unparalleled elegance crafted by our internal designers. Step into luxurious spaces where every detail reflects our dedication to exceptional craftsmanship and timeless sophistication. "
+              title_top="WE DRIVE YOUR"
+              title_bottom="REVENUE GROWTH"
+              description="Discover the pinnacle of digital excellence with Lintech Group. Here, we craft bespoke marketing strategies and pioneering digital products designed to propel your business into a realm of  growth and efficiency. Our commitment is to turn your aspirations into tangible successes, ensuring that every digital touchpoint is an opportunity to captivate and convert."
               description_color="#a9a9a9"
             />
             <HeaderThreeImages
-              image_1={"/images/home/homepage_banner_1.webp"}
-              image_2={"/images/home/homepage_banner_2.webp"}
-              image_3={"/images/home/homepage_banner_3.webp"}
+              image_1={"/lintech-group-imgaes/banner-img1.png"}
+              image_2={"/lintech-group-imgaes/banner-img2.png"}
+              image_3={"/lintech-group-imgaes/banner-img-3.png"}
             />
           </div>
           <TruestedBy title_color="#ffffff" />

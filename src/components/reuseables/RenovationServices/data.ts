@@ -3,10 +3,10 @@ import { pages_data } from "@/data/pages_data";
 export const tabs = [
   {
     id: "1",
-    title: "Commercial",
+    title: "Development",
     items: [
       ...pages_data
-        .filter((item) => item.type === "Commercial")
+        .filter((item) => item.type === "Development")
         .map((item, index) => {
           return {
             id: `0${index + 1}`,
@@ -19,10 +19,10 @@ export const tabs = [
 
   {
     id: "2",
-    title: "Residential",
+    title: "Marketing",
     items: [
       ...pages_data
-        .filter((item) => item.type === "Residential")
+        .filter((item) => item.type === "Marketing")
         .map((item, index) => {
           return {
             id: `0${index + 1}`,

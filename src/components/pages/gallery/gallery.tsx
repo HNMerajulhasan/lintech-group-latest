@@ -10,8 +10,8 @@ import { motion } from "framer-motion";
 import PageTab from "@/components/reuseables/PageTab/PageTab";
 
 const tabs = [
-  { id: "Residential", title: "Residential" },
-  { id: "Commercial", title: "Commercial" },
+  { id: "Marketing", title: "Marketing" },
+  { id: "Development", title: "Development" },
 ];
 
 const GalleryPage = () => {

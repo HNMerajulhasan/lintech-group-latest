@@ -15,7 +15,7 @@ const RenovationServices = () => {
     <>
       <main className={styles.main}>
         <HeaderTitle
-          title_top="RENOVATION SERVICES"
+          title_top="OUR SERVICES"
           title_color="#ffffff"
           title_font_size="56px"
         />

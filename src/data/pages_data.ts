@@ -1,8 +1,8 @@
 export const pages_data = [
   {
     id: "1",
-    label: "Restaurant Franchise Services",
-    type: "Commercial",
+    label: "WEB APP DEVELOPMENT",
+    type: "Development",
     // link: "/services/restaurant-franchise-services",
     link: "/contact",
 
@@ -25,8 +25,8 @@ export const pages_data = [
   },
   {
     id: "2",
-    label: "Restaurant Renovation",
-    type: "Commercial",
+    label: "WEBSITE DEVELOPMENT",
+    type: "Development",
     link: "/services/restaurant-renovation",
 
     content: {
@@ -63,8 +63,8 @@ export const pages_data = [
 
   {
     id: "3",
-    label: "Hotel Renovation Service",
-    type: "Commercial",
+    label: "ECOMMERCE DEVELOPMENT",
+    type: "Development",
     link: "/services/hotel-renovation-service",
 
     content: {
@@ -168,8 +168,8 @@ export const pages_data = [
 
   {
     id: "4",
-    label: "Office Space Renovation",
-    type: "Commercial",
+    label: "UI/UX DESIGN",
+    type: "Development",
     // link: "/services/office-space-renovation",
     link: "/contact",
 
@@ -192,8 +192,8 @@ export const pages_data = [
 
   {
     id: "5",
-    label: "Retail Space Renovation",
-    type: "Commercial",
+    label: "WORKFLOW AUTOMATION",
+    type: "Development",
     // link: "/services/retail-space-renovation",
     link: "/contact",
 
@@ -215,8 +215,8 @@ export const pages_data = [
 
   {
     id: "6",
-    label: "Night Club Renovation",
-    type: "Commercial",
+    label: "WORKFLOW IMPLEMENTATION",
+    type: "Development",
     // link: "/services/night-club-renovation",
     link: "/contact",
 
@@ -239,8 +239,8 @@ export const pages_data = [
 
   {
     id: "7",
-    label: "Bar Renovation",
-    type: "Commercial",
+    label: "MVP PROTOTYPING",
+    type: "Development",
     // link: "/services/bar-renovation",
     link: "/contact",
 
@@ -263,8 +263,8 @@ export const pages_data = [
   },
   {
     id: "8",
-    label: "HMO Renovation",
-    type: "Commercial",
+    label: "CONSULTANCY",
+    type: "Development",
     // link: "/services/hmo-renovation",
     link: "/contact",
 
@@ -284,10 +284,13 @@ export const pages_data = [
       solution_text_2: "",
     },
   },
+ 
+  // Marketing section
+
   {
     id: "9",
-    label: "Luxury Home Renovation",
-    type: "Residential",
+    label: "BRANDING",
+    type: "Marketing",
     link: "/services/luxury-home-renovation",
     content: {
       header_title_1: "Luxury",
@@ -308,8 +311,8 @@ export const pages_data = [
   },
   {
     id: "10",
-    label: "Luxury Apartment Renovation",
-    type: "Residential",
+    label: "SOCIAL MEDIA MARKETING",
+    type: "Marketing",
     // link: "/services/luxury-apartment-renovation",
     link: "/contact",
 
@@ -330,8 +333,8 @@ export const pages_data = [
   },
   {
     id: "11",
-    label: "Luxury House Renovation",
-    type: "Residential",
+    label: "PAID ADVERTISING (GOOGLE & SOCIAL)",
+    type: "Marketing",
     // link: "/services/luxury-house-renovation",
     link: "/contact",
 
@@ -367,8 +370,8 @@ export const pages_data = [
   },
   {
     id: "12",
-    label: "Luxury Mansion Renovation",
-    type: "Residential",
+    label: "EMAIL MARKETING",
+    type: "Marketing",
     // link: "/services/luxury-mansion-renovation",
     link: "/contact",
 
@@ -390,8 +393,8 @@ export const pages_data = [
   },
   {
     id: "13",
-    label: "Luxury Living Room Renovation",
-    type: "Residential",
+    label: "CAMPAIGN STRATEGY / CONSULTATION",
+    type: "Marketing",
     // link: "/services/luxury-living-room-renovation",
     link: "/contact",
 
@@ -427,8 +430,8 @@ export const pages_data = [
   },
   {
     id: "14",
-    label: "Luxury Villa Renovation",
-    type: "Residential",
+    label: "VIDEO PRODUCTION",
+    type: "Marketing",
     // link: "/services/luxury-villa-renovation",
     link: "/contact",
 
@@ -450,8 +453,8 @@ export const pages_data = [
   },
   {
     id: "15",
-    label: "Luxury Bathroom Renovation",
-    type: "Residential",
+    label: "MOTION GRAPHICS",
+    type: "Marketing",
     // link: "/services/luxury-bathroom-renovation",
     link: "/contact",
 
@@ -487,8 +490,8 @@ export const pages_data = [
   },
   {
     id: "16",
-    label: "Luxury Kitchen Renovation",
-    type: "Residential",
+    label: "PHOTOGRAPHY",
+    type: "Marketing",
     // link: "/services/luxury-kitchen-renovation",
     link: "/contact",
 

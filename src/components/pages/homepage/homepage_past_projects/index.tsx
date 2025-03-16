@@ -27,7 +27,6 @@ const HomepagePastProjects = () => {
             <span>500+ PROJECTS</span>
           </div>
 
-
           <motion.div
             className={styles.project_count_line}
             whileInView="visible"
@@ -41,11 +40,6 @@ const HomepagePastProjects = () => {
           />
         </div>
 
-
-
-
-
-
         <section className={styles.projects_container}>
           <div className={styles.projects_container_left}>
             <div className={`${styles.sticky_container}`}>
@@ -56,9 +50,6 @@ const HomepagePastProjects = () => {
                 navigateTo="/portfolio"
               />
             </div>
-
-
-
           </div>
 
           <div className={styles.projects}>
@@ -67,7 +58,8 @@ const HomepagePastProjects = () => {
                 <motion.div
                   key={`${index}`}
                   className={styles.project}
-                  whileHover="animate_on_hover">
+                  whileHover="animate_on_hover"
+                >
                   <motion.div
                     className={styles.project_left}
                     initial={{
@@ -77,7 +69,8 @@ const HomepagePastProjects = () => {
                     whileInView={{
                       y: 0,
                       transition: { duration: 0.5 },
-                    }}>
+                    }}
+                   >
                     <div className={styles.project_left_title}>
                       {item?.title && item?.title_2 ? (
                         <div>
@@ -100,28 +93,21 @@ const HomepagePastProjects = () => {
                             x: "-10px",
                             y: "10px",
                           },
-                        }}>
-                        <Link href={"/contact"} >
-                        <Image
-                          src={arrorw_top_right_white}
-                          alt="arrorw_top_right_white"
-                          className={styles.project_left_title_icon}
-                        />
-                          </Link>
+                        }}
+                      >
+                        <Link href={"/contact"}>
+                          <Image
+                            src={arrorw_top_right_white}
+                            alt="arrorw_top_right_white"
+                            className={styles.project_left_title_icon}
+                          />
+                        </Link>
                       </motion.div>
-
-
-
-
                     </div>
                     <p>{item?.description}</p>
                     <small>{item?.category}</small>
                   </motion.div>
                   <div className={styles.project_divider}></div>
-
-
-
-
 
                   <motion.div
                     viewport={{ once: true }}
@@ -136,7 +122,8 @@ const HomepagePastProjects = () => {
                     // whileInView={{
                     //   transition: { scale: 1 },
                     // }}
-                    className={styles.project_right}>
+                    className={styles.project_right}
+                  >
                     <img
                       src={item?.image}
                       alt="image_right"
