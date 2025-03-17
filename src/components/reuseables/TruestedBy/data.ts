@@ -43,17 +43,11 @@ export const trusted_by_logos = [
   },
 
   {
-    id: "10",
+    id: "11",
     icon: "/lg-client-logo/midland_network.svg",
   },
-
   {
-    id: "10",
-    icon: "/lg-client-logo/jaquar.svg",
-  },
-
-  {
-    id: "10",
+    id: "12",
     icon: "/lg-client-logo/mns-logo.svg",
   },
 ];

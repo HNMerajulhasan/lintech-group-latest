@@ -48,8 +48,7 @@ Our comprehensive approach not only overcame the initial locational setbacks but
     id: "5",
     title: "DO",
     description: `From its inception, Dental Opulence has swiftly transitioned from a new dental practice open just two days a week with a single dentist, to a fully booked clinic operating daily with three dentists within just 14 months. This rapid growth is a testament to the digital transformation strategies implemented by Lintech Group, which included integrating their case management system with a state-of-the-art web application built in Next.js. This website has not only enhanced patient engagement but also earned a nomination for the best website in UK dentistry.
-We also elevated their market presence through high-quality video production, featuring notable influencer Mist, who boasts over 800,000 followers. These efforts were part of a broader campaign to enhance their branding and digital footprint, ensuring that every aspect of their online presence was as polished and professional as their in-clinic services.
-Our comprehensive digital marketing strategy for Dental Opulence has included everything from website development to content creation and social media management, significantly boosting their online visibility and engagement. The synergy of advanced web technology with impactful visual content and celebrity influence has effectively positioned Dental Opulence as a leading innovator in dental care services.`,
+We also elevated their market presence through high-quality video production, featuring notable influencer Mist, who boasts over 800,000 followers. These efforts were part of a broader campaign to enhance their branding and digital footprint, ensuring that every aspect of their online presence was as polished and professional as their in-clinic services.`,
     category: "",
     quote: "'22",
     image: "/lg-showcase-project-img/DO.jpg",

@@ -147,9 +147,9 @@
 
 .project_right_image {
   @apply w-full h-full object-cover rounded-[14px]  overflow-hidden;
-  transition: transform 0.2s ease-in-out;
+  /* transition: transform 0.2s ease-in-out; */
 }
-
+/* 
 .project:hover .project_right_image {
   transform: scale(1.05);
-}
+} */
