@@ -15,9 +15,14 @@ import gallery3 from "../../public/images/gallery3.png";
 import peakLuxe1 from "../../public/images/peak-luxe1.jpg";
 import peakLuxe2 from "../../public/images/peak-luxe2.jpg";
 import peakLuxe3 from "../../public/images/peak-luxe3.jpg";
-import whatsapp from "../../public/icons/whastapp.svg";
+// import whatsapp from "../../public/icons/whastapp.svg";
 import tiktok from "../../public/icons/tiktok.svg";
 // import youtube from "../../public/icons/yt.svg";
+import { FiLinkedin } from "react-icons/fi";
+
+
+
+
 
 import instagram from "../../public/icons/instagram.svg";
 import facebook from "../../public/icons/facebook.svg";
@@ -26,24 +31,24 @@ export const socialLinks = [
    
   {
     label: "TIKTOK",
-    url: "https://www.tiktok.com/@luxetransformations?_t=8lqxi19gU4G&_r=1  ",
+    url: "https://www.tiktok.com/@lintechgroup",
     img: tiktok,
   },
   {
     label: "INSTAGRAM",
-    url: "https://www.instagram.com/luxe_transformations_official?igsh=MTVhMWVjNzRmbGZ3aw==" ,
+    url: "https://www.instagram.com/lintechgroup/" ,
     img: instagram,
   },
   {
     label: "FACEBOOK",
-    url: "https://www.facebook.com/Luxetransformations" ,
+    url: "https://www.facebook.com/Lintechgroup/" ,
     img: facebook,
   },
-  // {
-  //   label: "YOUTUBE",
-  //   url: "https://www.facebook.com/Luxetransformations" ,
-  //   img: youtube,
-  // },
+  {
+    label: "LINKEDIN",
+    url: "https://www.linkedin.com/company/lintech-group/?viewAsMember=true" ,
+    img: <FiLinkedin />,
+  },
    
 ];
 

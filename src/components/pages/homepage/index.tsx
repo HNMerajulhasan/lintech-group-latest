@@ -41,9 +41,9 @@ const Homepage = () => {
               description_color="#a9a9a9"
             />
             <HeaderThreeImages
-              image_1={"/lintech-group-imgaes/banner-img1.png"}
-              image_2={"/lintech-group-imgaes/banner-img2.png"}
-              image_3={"/lintech-group-imgaes/banner-img-3.png"}
+              image_1={"/lintech-group-imgaes/banner-img1.jpg"}
+              image_2={"/lintech-group-imgaes/banner-img2.jpg"}
+              image_3={"/lintech-group-imgaes/banner-img-3.jpg"}
             />
           </div>
           <TruestedBy title_color="#ffffff" />
