@@ -24,7 +24,7 @@ const HomepagePastProjects = () => {
 
         <div className={styles.project_count}>
           <div className={styles.project_count_inner}>
-            <span>500+ PROJECTS</span>
+            <span>124+ PROJECTS</span>
           </div>
 
           <motion.div

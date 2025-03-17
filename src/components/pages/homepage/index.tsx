@@ -31,10 +31,12 @@ const Homepage = () => {
             className="py-py-[60px] pt-[50px]
             mt-20
             sm:pt-[80px] 
-            3xl:pt-[100px]"
+            3xl:pt-[100px]
+            "
           >
             <HeaderTitle
               title_color="#fff"
+              title_font="font-tt-tunnels"
               title_top="WE DRIVE YOUR"
               title_bottom="REVENUE GROWTH"
               description="Discover the pinnacle of digital excellence with Lintech Group. Here, we craft bespoke marketing strategies and pioneering digital products designed to propel your business into a realm of  growth and efficiency. Our commitment is to turn your aspirations into tangible successes, ensuring that every digital touchpoint is an opportunity to captivate and convert."

@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 
 function HeaderTitle({
   captionText = "",
+  title_font="font-tt-tunnels",
   title_top = "",
   title_bottom = "",
   title_bottom2="",
@@ -15,6 +16,7 @@ function HeaderTitle({
   description_max_width = "700px",
 }: {
   captionText?: string;
+  title_font?: string;
   title_top?: string;
   title_bottom?: string;
   title_bottom2?:string;

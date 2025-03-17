@@ -9,7 +9,7 @@ Our integrated approach includes synchronizing online strategies with impactful 
     category: "",
     quote: "'22",
     // image: "/images/home/st_athans_hotel.jpg",
-    image: "/images/home/homepage_banner_3.webp",
+    image: "/lg-showcase-project-img/You-Want-Beef.jpg",
   },
 
   {
@@ -18,7 +18,7 @@ Our integrated approach includes synchronizing online strategies with impactful 
     description: `Located in the prestigious Mailbox district of Birmingham, Dilse offers a premium dining experience, drawing on the rich culinary traditions of South India and Sri Lanka. In partnership with Lintech Group, Dilse has rapidly enhanced its digital presence and customer engagement. We successfully increased their Instagram followers to 4,000 shortly after opening, significantly boosting customer visits with a marketing ROI of 14x. Our strategic social media campaigns, focused on the high-quality and authenticity of their offerings, have positioned Dilse as a top destination for discerning diners seeking genuine South Indian flavours in Birmingham.
 This collaboration has not only elevated Dilse's online visibility but also reinforced its status as a premium brand in the competitive hospitality market.`,
     quote: "'22",
-    image: "/images/home/st_athans_hotel.webp",
+    image: "/lg-showcase-project-img/Dilse.jpg",
   },
 
   {
@@ -30,7 +30,7 @@ Working intimately with Jaquar Midlands, we have crafted a bespoke marketing pla
 We have integrated a robust brand strategy that leverages both micro-influencer partnerships and organic content to build authenticity and trust among consumers. Additionally, our targeted paid media campaigns are designed to reach a broad audience, spanning both B2B and B2C sectors.`,
     category: "",
     quote: "'22",
-    image: "/images/home/karrak.webp",
+    image: "/lg-showcase-project-img/Jaquar.jpg",
   },
 
   {
@@ -42,7 +42,7 @@ Our comprehensive approach not only overcame the initial locational setbacks but
     // description: `E-commerce for Lift eFoil, featuring cutting-edge technology including a powerful battery, specially designed and durable board, advanced propulsion system, high-performance carbon fiber hydrofoil components, and a convenient Bluetooth hand controller for the ultimate watersports experience.`,
     category: "",
     quote: "'22",
-    image: "/images/home/jaquar.jpg",
+    image: "/lg-showcase-project-img/Noir 55.jpg",
   },
   {
     id: "5",
@@ -52,7 +52,7 @@ We also elevated their market presence through high-quality video production, fe
 Our comprehensive digital marketing strategy for Dental Opulence has included everything from website development to content creation and social media management, significantly boosting their online visibility and engagement. The synergy of advanced web technology with impactful visual content and celebrity influence has effectively positioned Dental Opulence as a leading innovator in dental care services.`,
     category: "",
     quote: "'22",
-    image: "/images/home/chailo.jpg",
+    image: "/lg-showcase-project-img/DO.jpg",
   },
   {
     id: "6",
@@ -62,7 +62,7 @@ Our team curated a collection of high-quality visual content, including professi
 Hotel Holloway offers more than just accommodation; it provides an experience steeped in luxury. Each room and service is crafted with meticulous attention to detail, ensuring that every aspect of a guest’s stay exceeds expectations. Our marketing initiatives have successfully communicated the warmth, hospitality, and unique charm that define Hotel Holloway, cementing its reputation as a premier destination for discerning travelers seeking unparalleled elegance and comfort.`,
     category: "",
     quote: "'22",
-    image: "/images/home/chailo.jpg",
+    image: "/lg-showcase-project-img/Hotel-Holloway.jpg",
   },
   {
     id: "6",
@@ -72,6 +72,6 @@ In addition to enhancing their digital tools, we significantly expanded their so
 This partnership has not only transformed Maurice Andrews Solicitors' digital presence but also reinforced their position as a cutting-edge leader in criminal defence, equipped to meet modern challenges with innovative solutions and impactful social media engagement.`,
     category: "",
     quote: "'22",
-    image: "/images/home/chailo.jpg",
+    image: "/lg-showcase-project-img/MA.jpg",
   },
 ];

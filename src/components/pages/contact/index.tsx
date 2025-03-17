@@ -57,7 +57,7 @@ const Homepage = () => {
 
   const clickMain = (key?: any) => {
     setclickFrom(key);
-    if (key === "join_team" || key === "leave_note") {
+    if (key === "join_team" || key === "leave_note" || key === "start_project") {
       setstep("CONTACT_US_STEP");
     }
   };
@@ -181,7 +181,7 @@ const Homepage = () => {
                   : "hidden sm:block absolute top-[calc(100%-130px)]"
               }>
               <Image
-                src={"/icons/logo.svg"}
+                src={"/lintech-group-icon/litech_group_logo.svg"}
                 alt="logo"
                 width={123}
                 height={54}
@@ -248,6 +248,7 @@ const Homepage = () => {
                         <FormTwo
                           handleStepChange={handleStepChange}
                           handleOptionSelect={handleOptionSelect}
+                          
                         />
                       )}
                       {activeStep === "formThree" && (

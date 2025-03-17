@@ -17,8 +17,12 @@ import peakLuxe2 from "../../public/images/peak-luxe2.jpg";
 import peakLuxe3 from "../../public/images/peak-luxe3.jpg";
 // import whatsapp from "../../public/icons/whastapp.svg";
 import tiktok from "../../public/icons/tiktok.svg";
+import linkedin from "../../public/lintech-group-icon/linkedin.svg";
+import youtube from "../../public/lintech-group-icon/youtube.svg";
+
+
 // import youtube from "../../public/icons/yt.svg";
-import { FiLinkedin } from "react-icons/fi";
+
 
 
 
@@ -44,12 +48,16 @@ export const socialLinks = [
     url: "https://www.facebook.com/Lintechgroup/" ,
     img: facebook,
   },
-  {
-    label: "LINKEDIN",
-    url: "https://www.linkedin.com/company/lintech-group/?viewAsMember=true" ,
-    img: <FiLinkedin />,
-  },
-   
+  // {
+  //   label: "LINKEDIN",
+  //   url: "https://www.linkedin.com/company/lintech-group/?viewAsMember=true" ,
+  //   img: linkedin,
+  // },
+  // {
+  //   label: "YOUTUBE",
+  //   url: "https://www.youtube.com/@lintechgroup" ,
+  //   img: youtube,
+  // },
 ];
 
 export const heroImages = [

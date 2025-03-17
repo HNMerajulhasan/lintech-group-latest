@@ -25,7 +25,7 @@
 }
 
 .logo {
-  @apply w-[clamp(200px,calc(260/1420*100vw),260px)];
+  @apply w-[clamp(230px,calc(260/1420*100vw),260px)];
 }
 
 .socials {

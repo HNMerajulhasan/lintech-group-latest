@@ -17,7 +17,7 @@ function Footer() {
         <div>
           <Link href={"/"}>
             <Image
-              src="/lintech-group-icon/lintech_group_logo.jpeg"
+              src="/lintech-group-icon/litech_group_logo.svg"
               alt="logo"
               width={300}
               height={100}
@@ -68,7 +68,7 @@ function Footer() {
               </li>
             </ul>
 
-            <ul className="text-white flex flex-col gap-2 cursor-pointer">
+            {/* <ul className="text-white flex flex-col gap-2 cursor-pointer">
               <li className="text-lg"><strong>Opening times:</strong></li>
               <li>Monday - (9am - 8pm) </li>
               <li>Tuesday - (9am - 8pm)</li>
@@ -76,7 +76,7 @@ function Footer() {
               <li>Thursday - (9am - 8pm)</li>
               <li>Friday - (9am - 8pm)</li>
               <li>Saturday - (9am - 8pm)</li>
-            </ul>
+            </ul> */}
           </div>
         </div>
 

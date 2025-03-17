@@ -77,10 +77,10 @@ function NavBar({ dark = true }: { dark?: boolean }) {
         <motion.div variants={getCardVariants(0)}>
           <Link href="/">
             <Image
-              src={dark ? "/lintech-group-icon/lintech_group_logo.jpeg" : "/lintech-group-icon/lintech_group_logo.jpeg"}
+              src={dark ? "/lintech-group-icon/litech_group_logo.svg" : "/lintech-group-icon/litech_group_logo.svg"}
               alt="logo"
-              width={140}
-              height={160}
+              width={150}
+              height={170}
               className="w-[clamp(123px,calc(213/1420*100vw),200px)]  h-[clamp(54px,calc(54/1420*100vw),96px)]"
             />
           </Link>
@@ -111,7 +111,7 @@ function NavBar({ dark = true }: { dark?: boolean }) {
               animate(scope.current, { y: 0 }, { ease: "linear" })
             }>
             <Image
-              src={dark ? "icons/menu_yellow.svg" : "/icons/menu_black.svg"}
+              src={dark ? "/lintech-group-icon/bargur_menu.svg" : "/lintech-group-icon/bargur_menu.svg"}
               alt="logo"
               width={50}
               height={50}

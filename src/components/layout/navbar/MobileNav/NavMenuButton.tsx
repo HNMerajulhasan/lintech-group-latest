@@ -14,7 +14,7 @@ const MenuToggle = ({
     className=" select-none outline-none cursor-pointer  z-30 absolute top-[15px] right-[calc(60/1420*100vw)]">
     {dark ? (
       <motion.img
-        src="/icons/menu_yellow.svg"
+        src="/lintech-group-icon/bargur_menu.svg"
         variants={{
           closed: { display: "block" },
           open: { display: "none" },
