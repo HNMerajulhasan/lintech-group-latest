@@ -35,7 +35,7 @@ export const quickLinks = [
 
   {
     hideInSmallScreen: true,
-    title: "Development Renovation",
+    title: "Development",
     children: [
       ...pages_data
         .filter((item) => item.type === "Development")
@@ -51,7 +51,7 @@ export const quickLinks = [
 
   {
     hideInSmallScreen: true,
-    title: "Marketing Renovation",
+    title: "Marketing",
     children: [
       ...pages_data
         .filter((item) => item.type === "Marketing")
