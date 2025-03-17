@@ -39,7 +39,7 @@ function Footer() {
             <div>
               <Image src={call_white} alt={call_white} />
               <span>
-                <a href="tel:02038369086">020 3836 9086</a>
+                <a href="tel:02038369086">020 3416 3626</a>
               </span>
             </div>
           </div>
@@ -48,24 +48,24 @@ function Footer() {
             <ul className="text-white flex flex-col gap-5 cursor-pointer">
               <li className=" flex flex-col gap-2">
              <strong className="sm:text-lg">
-             Residential renovation project enquiries:{" "}
+             email:{" "}
               </strong>  
                 <span>
                   <a href="mailto:sales@luxetransformations.co.uk">
-                    sales@luxetransformations.co.uk
+                   team@lintechgroup.co.uk
                    
                   </a>
                 </span>
               </li>
 
-              <li className="flex flex-col gap-2">
+              {/* <li className="flex flex-col gap-2">
             <strong className="sm:text-lg"> Commercial renovation projects: </strong>   
                 <span>
                   <a href="mailto: commercial@luxetransformations.co.uk ">
                     commercial@luxetransformations.co.uk
                   </a>
                 </span>
-              </li>
+              </li> */}
             </ul>
 
             {/* <ul className="text-white flex flex-col gap-2 cursor-pointer">
@@ -105,12 +105,12 @@ function Footer() {
 
         <div className="w-full">
           <div className={styles.divider} />
-          <p className={styles.title_3}>
-            Copyright © 2024 Luxe Transformations Ltd. Registered in England and
+          {/* <p className={styles.title_3}>
+             Luxe Transformations Ltd. Registered in England and
             Wales, UK
-          </p>
+          </p> */}
           <p className={styles.title_3}>
-            All rights reserved Website Developed by Lintech Group
+           Copyright © 2025 All rights reserved Website Developed by Lintech Group
           </p>
         </div>
       </main>
