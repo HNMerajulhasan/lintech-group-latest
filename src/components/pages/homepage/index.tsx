@@ -25,7 +25,7 @@ const Homepage = () => {
             <NavBar />
           </div>
 
-
+         {/* Home page code */}
 
           <div
             className="py-py-[60px] pt-[50px]
