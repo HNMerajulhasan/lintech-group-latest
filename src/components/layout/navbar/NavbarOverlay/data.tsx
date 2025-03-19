@@ -42,9 +42,9 @@ export const listItems = [
     id: "4",
     link: "/contact",
   },
-  {
-    title: "ABOUT",
-    id: "5",
-    link: "/about",
-  },
+  // {
+  //   title: "ABOUT",
+  //   id: "5",
+  //   link: "/about",
+  // },
 ];

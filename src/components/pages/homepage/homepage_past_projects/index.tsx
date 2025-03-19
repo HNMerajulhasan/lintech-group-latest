@@ -47,7 +47,7 @@ const HomepagePastProjects = () => {
                 title="ALL CASES"
                 width="229px"
                 rightIcon={"/icons/arrorw_top_right_black.svg"}
-                navigateTo="/portfolio"
+                navigateTo="/contact"
               />
             </div>
           </div>
