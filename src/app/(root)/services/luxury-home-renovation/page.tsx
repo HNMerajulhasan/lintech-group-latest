@@ -8,7 +8,7 @@ import "../style.css";
 function page() {
   return (
     <>
-      <Head>
+      {/* <Head>
         <title>Luxury Home Renovation - Bespoke Design & Quality</title>
 
         <meta
@@ -23,7 +23,7 @@ function page() {
 
         <meta name="robots" content="index,follow" />
       </Head>
-      <Servicepage page_id="luxury-home-renovation" />
+      <Servicepage page_id="luxury-home-renovation" /> */}
     </>
   );
 }
