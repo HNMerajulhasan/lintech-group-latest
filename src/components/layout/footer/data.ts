@@ -18,18 +18,18 @@ export const quickLinks = [
       //   title: "Portfolio",
       //   link: "/portfolio",
       // },
-      {
-        title: "Gallery",
-        link: "/gallery",
-      },
-      {
-        title: "Contact Us",
-        link: "/contact",
-      },
-      {
-        title: "Privacy Policy",
-        link: "/cookie-policy",
-      },
+      // {
+      //   title: "Gallery",
+      //   link: "/gallery",
+      // },
+      // {
+      //   title: "Contact Us",
+      //   link: "/contact",
+      // },
+      // {
+      //   title: "Privacy Policy",
+      //   link: "/cookie-policy",
+      // },
     ],
   },
 
